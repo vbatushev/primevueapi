@@ -71,6 +71,8 @@ func main() {
 		log.Fatal(err)
 	}
 
+	sections = sortSections(sections)
+
 	os.WriteFile("_variables.scss", []byte(result), 0666)
 
 	if jsonBytes, err := json.MarshalIndent(sections, "", "  "); err == nil {
@@ -114,4 +116,29 @@ func parseContent(resp *http.Response) (result string, sections []Section, err e
 		result += "\n\n"
 	}
 	return result, sections, err
+}
+
+func sortSections(sections []Section) []Section {
+	sectionNames := []string{"general", "button", "form", "data", "media", "menu", "message", "panel", "overlay", "misc"}
+	result := make([]Section, len(sectionNames))
+	var unknowns []Section
+	for _, section := range sections {
+		var found bool
+		for i, name := range sectionNames {
+			if name == section.Title {
+				result[i] = Section{
+					Title: name,
+					Items: section.Items,
+				}
+				found = true
+				break
+			}
+		}
+		if !found {
+			unknowns = append(unknowns, section)
+		}
+	}
+
+	result = append(result, unknowns...)
+	return result
 }

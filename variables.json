@@ -1,5 +1,185 @@
 [
   {
+    "title": "general",
+    "items": [
+      {
+        "property": "$fontFamily",
+        "value": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "comment": "Font of the theme"
+      },
+      {
+        "property": "$fontSize",
+        "value": "1rem",
+        "comment": "Size of the font"
+      },
+      {
+        "property": "$fontWeight",
+        "value": "normal",
+        "comment": "Thickness of the texts"
+      },
+      {
+        "property": "$textColor",
+        "value": "#495057",
+        "comment": "Primary text color"
+      },
+      {
+        "property": "$textSecondaryColor",
+        "value": "#6c757d",
+        "comment": "Secondary text color"
+      },
+      {
+        "property": "$highlightBg",
+        "value": "$primaryColor",
+        "comment": "Background of a highlighted item"
+      },
+      {
+        "property": "$highlightTextColor",
+        "value": "$primaryTextColor",
+        "comment": "Text color of a highlighted item"
+      },
+      {
+        "property": "$highlightFocusBg",
+        "value": "rgba($primaryColor, .24) !default",
+        "comment": "Background of a highlighted item in focus state"
+      },
+      {
+        "property": "$borderRadius",
+        "value": "3px",
+        "comment": "Radius of the corners"
+      },
+      {
+        "property": "$transitionDuration",
+        "value": ".2s",
+        "comment": "Duration of the property transitions"
+      },
+      {
+        "property": "$formElementTransition",
+        "value": "background-color $transitionDuration, color $transitionDuration, border-color $transitionDuration, box-shadow $transitionDuration",
+        "comment": "Properties of a form element transition"
+      },
+      {
+        "property": "$actionIconTransition",
+        "value": "background-color $transitionDuration, color $transitionDuration, box-shadow $transitionDuration",
+        "comment": "Properties of a action icon transition"
+      },
+      {
+        "property": "$listItemTransition",
+        "value": "background-color $transitionDuration, border-color $transitionDuration, box-shadow $transitionDuration",
+        "comment": "Properties of a list item transition"
+      },
+      {
+        "property": "$primeIconFontSize",
+        "value": "1rem",
+        "comment": "Size of the Icons"
+      },
+      {
+        "property": "$divider",
+        "value": "1px solid #dee2e6",
+        "comment": "Separator border"
+      },
+      {
+        "property": "$inlineSpacing",
+        "value": ".5rem",
+        "comment": "Space between two inline items"
+      },
+      {
+        "property": "$disabledOpacity",
+        "value": ".8",
+        "comment": "Opacity of the disabled elements"
+      },
+      {
+        "property": "$maskBg",
+        "value": "rgba(0, 0, 0, 0.4)",
+        "comment": "Background of the modal layer"
+      },
+      {
+        "property": "$loadingIconFontSize",
+        "value": "2rem",
+        "comment": "Font size of the loading icons"
+      },
+      {
+        "property": "$errorColor",
+        "value": "#e4677e",
+        "comment": "Color to use on an invalid element e.g. invalid input"
+      },
+      {
+        "property": "$focusOutlineColor",
+        "value": "#bfd1f6",
+        "comment": "Outline color of a focused element"
+      },
+      {
+        "property": "$focusOutline",
+        "value": "0 none",
+        "comment": "Outline of a focused element"
+      },
+      {
+        "property": "$focusOutlineOffset",
+        "value": "0",
+        "comment": "Outline offset of a focused element"
+      },
+      {
+        "property": "$focusShadow",
+        "value": "0 0 0 0.2rem $focusOutlineColor",
+        "comment": "Box shadow of a focused element"
+      },
+      {
+        "property": "$actionIconWidth",
+        "value": "2rem",
+        "comment": "Width of an action icon"
+      },
+      {
+        "property": "$actionIconHeight",
+        "value": "2rem",
+        "comment": "Height of an action icon"
+      },
+      {
+        "property": "$actionIconBg",
+        "value": "transparent",
+        "comment": "Background of an action icon"
+      },
+      {
+        "property": "$actionIconBorder",
+        "value": "0 none",
+        "comment": "Border of an action icon"
+      },
+      {
+        "property": "$actionIconColor",
+        "value": "$textSecondaryColor",
+        "comment": "Color of an action icon"
+      },
+      {
+        "property": "$actionIconHoverBg",
+        "value": "#e9ecef",
+        "comment": "Backgroun of an action icon in hover state"
+      },
+      {
+        "property": "$actionIconHoverBorderColor",
+        "value": "transparent",
+        "comment": "Border of an action icon in hover state"
+      },
+      {
+        "property": "$actionIconHoverColor",
+        "value": "$textColor",
+        "comment": "Color of an action icon in hover state"
+      },
+      {
+        "property": "$actionIconBorderRadius",
+        "value": "50%",
+        "comment": "Border radius of an action icon"
+      },
+      {
+        "property": "$scaleSM",
+        "value": "0.875",
+        "comment": "Scale factor of small component size"
+      },
+      {
+        "property": "$scaleLG",
+        "value": "1.25",
+        "comment": "Scale factor of small large size"
+      }
+    ]
+  },
+  {
     "title": "button",
     "items": [
       {
@@ -546,441 +726,6 @@
         "property": "$speedDialActionTextHoverColor",
         "value": "#212121",
         "comment": "Text color of a speed dial item in hover state"
-      }
-    ]
-  },
-  {
-    "title": "data",
-    "items": [
-      {
-        "property": "$paginatorBg",
-        "value": "#ffffff",
-        "comment": "Background of a paginator"
-      },
-      {
-        "property": "$paginatorTextColor",
-        "value": "$textSecondaryColor",
-        "comment": "Text color of a paginator"
-      },
-      {
-        "property": "$paginatorBorder",
-        "value": "solid #e9ecef",
-        "comment": "Border of a paginator"
-      },
-      {
-        "property": "$paginatorBorderWidth",
-        "value": "0",
-        "comment": "Border width of a paginator"
-      },
-      {
-        "property": "$paginatorPadding",
-        "value": ".5rem 1rem",
-        "comment": "Padding of a paginator"
-      },
-      {
-        "property": "$paginatorElementWidth",
-        "value": "$buttonIconOnlyWidth",
-        "comment": "Width of a paginator element"
-      },
-      {
-        "property": "$paginatorElementHeight",
-        "value": "$buttonIconOnlyWidth",
-        "comment": "Height of a paginator element"
-      },
-      {
-        "property": "$paginatorElementBg",
-        "value": "transparent",
-        "comment": "Background of a paginator element"
-      },
-      {
-        "property": "$paginatorElementBorder",
-        "value": "0 none",
-        "comment": "Border of a paginator element"
-      },
-      {
-        "property": "$paginatorElementIconColor",
-        "value": "$textSecondaryColor",
-        "comment": "Icon color of a paginator element"
-      },
-      {
-        "property": "$paginatorElementHoverBg",
-        "value": "#e9ecef",
-        "comment": "Background of a paginator element in hover state"
-      },
-      {
-        "property": "$paginatorElementHoverBorderColor",
-        "value": "transparent",
-        "comment": "Border color of a paginator element in hover state"
-      },
-      {
-        "property": "$paginatorElementIconHoverColor",
-        "value": "$textSecondaryColor",
-        "comment": "Icon color of a paginator element in hover state"
-      },
-      {
-        "property": "$paginatorElementBorderRadius",
-        "value": "$borderRadius",
-        "comment": "Border radius of a paginator element"
-      },
-      {
-        "property": "$paginatorElementMargin",
-        "value": ".143rem",
-        "comment": "Margin of a paginator element"
-      },
-      {
-        "property": "$paginatorElementPadding",
-        "value": "0",
-        "comment": "Padding of a paginator element"
-      },
-      {
-        "property": "$tableHeaderBorder",
-        "value": "1px solid #e9ecef",
-        "comment": "Border of a table header"
-      },
-      {
-        "property": "$tableHeaderBorderWidth",
-        "value": "0 0 1px 0",
-        "comment": "Border width of a table header"
-      },
-      {
-        "property": "$tableHeaderBg",
-        "value": "#f8f9fa",
-        "comment": "Background of a table header"
-      },
-      {
-        "property": "$tableHeaderTextColor",
-        "value": "$textColor",
-        "comment": "Text color of a table header"
-      },
-      {
-        "property": "$tableHeaderFontWeight",
-        "value": "600",
-        "comment": "Font weight of a table header"
-      },
-      {
-        "property": "$tableHeaderPadding",
-        "value": "1rem 1rem",
-        "comment": "Padding of a table header, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
-      },
-      {
-        "property": "$tableHeaderCellPadding",
-        "value": "1rem 1rem",
-        "comment": "Padding of a table header cell, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
-      },
-      {
-        "property": "$tableHeaderCellBg",
-        "value": "#f8f9fa",
-        "comment": "Background of a table header cell"
-      },
-      {
-        "property": "$tableHeaderCellTextColor",
-        "value": "$textColor",
-        "comment": "Text color of a table header cell"
-      },
-      {
-        "property": "$tableHeaderCellFontWeight",
-        "value": "600",
-        "comment": "Font weight of a table header cell"
-      },
-      {
-        "property": "$tableHeaderCellBorder",
-        "value": "1px solid #e9ecef",
-        "comment": "Border of a table header cell"
-      },
-      {
-        "property": "$tableHeaderCellBorderWidth",
-        "value": "0 0 1px 0",
-        "comment": "Border width of a table header cell"
-      },
-      {
-        "property": "$tableHeaderCellHoverBg",
-        "value": "#e9ecef",
-        "comment": "Background of a table header cell in hover state"
-      },
-      {
-        "property": "$tableHeaderCellTextHoverColor",
-        "value": "$textColor",
-        "comment": "Text color of a table header cell in hover state"
-      },
-      {
-        "property": "$tableHeaderCellIconColor",
-        "value": "$textSecondaryColor",
-        "comment": "Icon color of a table header cell"
-      },
-      {
-        "property": "$tableHeaderCellIconHoverColor",
-        "value": "$textSecondaryColor",
-        "comment": "Icon color of a table header cell in hover state"
-      },
-      {
-        "property": "$tableHeaderCellHighlightBg",
-        "value": "#f8f9fa",
-        "comment": "Background of a table header cell in sorted state"
-      },
-      {
-        "property": "$tableHeaderCellHighlightTextColor",
-        "value": "$primaryColor",
-        "comment": "Text color of a table header cell in sorted state"
-      },
-      {
-        "property": "$tableHeaderCellHighlightHoverBg",
-        "value": "#e9ecef",
-        "comment": "Hover background of a table header cell in sorted state"
-      },
-      {
-        "property": "$tableHeaderCellHighlightTextHoverColor",
-        "value": "$primaryColor",
-        "comment": "Hover text color of a table header cell in sorted state"
-      },
-      {
-        "property": "$tableSortableColumnBadgeSize",
-        "value": "1.143rem",
-        "comment": "Size of a multiple column sorting order indicator"
-      },
-      {
-        "property": "$tableBodyRowBg",
-        "value": "#ffffff",
-        "comment": "Background of a table body row"
-      },
-      {
-        "property": "$tableBodyRowTextColor",
-        "value": "$textColor",
-        "comment": "Text color of a table body row"
-      },
-      {
-        "property": "$tableBodyRowEvenBg",
-        "value": "#ffffff",
-        "comment": "Background of an even table body row"
-      },
-      {
-        "property": "$tableBodyRowHoverBg",
-        "value": "#e9ecef",
-        "comment": "Background of a table body row in hover state"
-      },
-      {
-        "property": "$tableBodyRowTextHoverColor",
-        "value": "$textColor",
-        "comment": "Text color of a table body row in hover state"
-      },
-      {
-        "property": "$tableBodyCellBorder",
-        "value": "1px solid rgba(0,0,0,0.08)",
-        "comment": "Border for a cell of a table toby row"
-      },
-      {
-        "property": "$tableBodyCellBorderWidth",
-        "value": "0 0 1px 0",
-        "comment": "Border width for a cell of a table toby row"
-      },
-      {
-        "property": "$tableBodyCellPadding",
-        "value": "1rem 1rem",
-        "comment": "Padding for a cell of a table toby row, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
-      },
-      {
-        "property": "$tableFooterCellPadding",
-        "value": "1rem 1rem",
-        "comment": "Padding of a table footer cell, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
-      },
-      {
-        "property": "$tableFooterCellBg",
-        "value": "#f8f9fa",
-        "comment": "Background of a table footer cell"
-      },
-      {
-        "property": "$tableFooterCellTextColor",
-        "value": "$textColor",
-        "comment": "Text color of a table footer cell"
-      },
-      {
-        "property": "$tableFooterCellFontWeight",
-        "value": "600",
-        "comment": "Font weight of a table footer cell"
-      },
-      {
-        "property": "$tableFooterCellBorder",
-        "value": "1px solid #e9ecef",
-        "comment": "Border of a table footer cell"
-      },
-      {
-        "property": "$tableFooterCellBorderWidth",
-        "value": "0 0 1px 0",
-        "comment": "Border width of a table footer cell"
-      },
-      {
-        "property": "$tableResizerHelperBg",
-        "value": "$primaryColor",
-        "comment": "Backgground of a table column resize indicator bar"
-      },
-      {
-        "property": "$tableFooterBorder",
-        "value": "1px solid #e9ecef",
-        "comment": "Border of a table footer"
-      },
-      {
-        "property": "$tableFooterBorderWidth",
-        "value": "0 0 1px 0",
-        "comment": "Border width of a table footer"
-      },
-      {
-        "property": "$tableFooterBg",
-        "value": "#f8f9fa",
-        "comment": "Background of a table footer"
-      },
-      {
-        "property": "$tableFooterTextColor",
-        "value": "$textColor",
-        "comment": "Text color of a table footer"
-      },
-      {
-        "property": "$tableFooterFontWeight",
-        "value": "600",
-        "comment": "Font weight of a table footer"
-      },
-      {
-        "property": "$tableFooterPadding",
-        "value": "1rem 1rem",
-        "comment": "Padding of a table footer, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
-      },
-      {
-        "property": "$tableCellContentAlignment",
-        "value": "left",
-        "comment": "Content alignment of a table cell"
-      },
-      {
-        "property": "$tableTopPaginatorBorderWidth",
-        "value": "1px 0 1px 0",
-        "comment": "Border width of a table paginator positioned at top"
-      },
-      {
-        "property": "$tableBottomPaginatorBorderWidth",
-        "value": "0 0 1px 0",
-        "comment": "Border width of a table paginator positioned at bottom"
-      },
-      {
-        "property": "$tableScaleSM",
-        "value": "0.5",
-        "comment": "Scale factor of a small datatable"
-      },
-      {
-        "property": "$tableScaleLG",
-        "value": "1.25",
-        "comment": "Scale factor of a large datatable"
-      },
-      {
-        "property": "$dataViewContentPadding",
-        "value": "0",
-        "comment": "Padding for content section of a dataview"
-      },
-      {
-        "property": "$dataViewContentBorder",
-        "value": "0 none",
-        "comment": "Border for content section of a dataview"
-      },
-      {
-        "property": "$dataViewListItemBorder",
-        "value": "solid #e9ecef",
-        "comment": "Border for an item of a dataview in list orientation"
-      },
-      {
-        "property": "$dataViewListItemBorderWidth",
-        "value": "0 0 1px 0",
-        "comment": "Border width for an item of a dataview in list orientation"
-      },
-      {
-        "property": "$fullCalendarEventBg",
-        "value": "$primaryDarkColor",
-        "comment": "Background of a full calendar event"
-      },
-      {
-        "property": "$fullCalendarEventBorderColor",
-        "value": "$primaryDarkColor",
-        "comment": "Border color of a full calendar event"
-      },
-      {
-        "property": "$fullCalendarEventBorder",
-        "value": "1px solid $primaryDarkColor",
-        "comment": "Border of a full calendar event"
-      },
-      {
-        "property": "$fullCalendarEventTextColor",
-        "value": "$primaryTextColor",
-        "comment": "Text color of a full calendar event"
-      },
-      {
-        "property": "$treeContainerPadding",
-        "value": "0.286rem",
-        "comment": "Padding of a tree"
-      },
-      {
-        "property": "$treeNodePadding",
-        "value": "0.143rem",
-        "comment": "Padding of a tree node"
-      },
-      {
-        "property": "$treeNodeContentPadding",
-        "value": ".5rem",
-        "comment": "Padding of a tree node content consists of toggler, icon and label"
-      },
-      {
-        "property": "$treeNodeChildrenPadding",
-        "value": "0 0 0 1rem",
-        "comment": "Padding of a tree node children container"
-      },
-      {
-        "property": "$treeNodeIconColor",
-        "value": "$textSecondaryColor",
-        "comment": "Color of a treenode data icon, $dataActionIconColor for the toggler element"
-      },
-      {
-        "property": "$timelineVerticalEventContentPadding",
-        "value": "0 1rem",
-        "comment": "Padding of a vertical timeline content element"
-      },
-      {
-        "property": "$timelineHorizontalEventContentPadding",
-        "value": "1rem 0",
-        "comment": "Padding of a horizontal timeline content element"
-      },
-      {
-        "property": "$timelineEventMarkerWidth",
-        "value": "1rem",
-        "comment": "Width of a timeline marker"
-      },
-      {
-        "property": "$timelineEventMarkerHeight",
-        "value": "1rem",
-        "comment": "Height of a timeline marker"
-      },
-      {
-        "property": "$timelineEventMarkerBorderRadius",
-        "value": "50%",
-        "comment": "Border radius of a timeline marker"
-      },
-      {
-        "property": "$timelineEventMarkerBorder",
-        "value": "2px solid $highlightBg",
-        "comment": "Border of a timeline marker"
-      },
-      {
-        "property": "$timelineEventMarkerBackground",
-        "value": "$highlightTextColor",
-        "comment": "Background of a timeline marker"
-      },
-      {
-        "property": "$timelineEventConnectorSize",
-        "value": "2px",
-        "comment": "Size of a timeline connector"
-      },
-      {
-        "property": "$timelineEventColor",
-        "value": "#dee2e6",
-        "comment": "Color of a timeline event"
-      },
-      {
-        "property": "$organizationChartConnectorColor",
-        "value": "#dee2e6",
-        "comment": "Color of a line to connect to organization chart nodes"
       }
     ]
   },
@@ -1700,182 +1445,437 @@
     ]
   },
   {
-    "title": "general",
+    "title": "data",
     "items": [
       {
-        "property": "$fontFamily",
-        "value": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
-        "comment": "Font of the theme"
+        "property": "$paginatorBg",
+        "value": "#ffffff",
+        "comment": "Background of a paginator"
       },
       {
-        "property": "$fontSize",
-        "value": "1rem",
-        "comment": "Size of the font"
-      },
-      {
-        "property": "$fontWeight",
-        "value": "normal",
-        "comment": "Thickness of the texts"
-      },
-      {
-        "property": "$textColor",
-        "value": "#495057",
-        "comment": "Primary text color"
-      },
-      {
-        "property": "$textSecondaryColor",
-        "value": "#6c757d",
-        "comment": "Secondary text color"
-      },
-      {
-        "property": "$highlightBg",
-        "value": "$primaryColor",
-        "comment": "Background of a highlighted item"
-      },
-      {
-        "property": "$highlightTextColor",
-        "value": "$primaryTextColor",
-        "comment": "Text color of a highlighted item"
-      },
-      {
-        "property": "$highlightFocusBg",
-        "value": "rgba($primaryColor, .24) !default",
-        "comment": "Background of a highlighted item in focus state"
-      },
-      {
-        "property": "$borderRadius",
-        "value": "3px",
-        "comment": "Radius of the corners"
-      },
-      {
-        "property": "$transitionDuration",
-        "value": ".2s",
-        "comment": "Duration of the property transitions"
-      },
-      {
-        "property": "$formElementTransition",
-        "value": "background-color $transitionDuration, color $transitionDuration, border-color $transitionDuration, box-shadow $transitionDuration",
-        "comment": "Properties of a form element transition"
-      },
-      {
-        "property": "$actionIconTransition",
-        "value": "background-color $transitionDuration, color $transitionDuration, box-shadow $transitionDuration",
-        "comment": "Properties of a action icon transition"
-      },
-      {
-        "property": "$listItemTransition",
-        "value": "background-color $transitionDuration, border-color $transitionDuration, box-shadow $transitionDuration",
-        "comment": "Properties of a list item transition"
-      },
-      {
-        "property": "$primeIconFontSize",
-        "value": "1rem",
-        "comment": "Size of the Icons"
-      },
-      {
-        "property": "$divider",
-        "value": "1px solid #dee2e6",
-        "comment": "Separator border"
-      },
-      {
-        "property": "$inlineSpacing",
-        "value": ".5rem",
-        "comment": "Space between two inline items"
-      },
-      {
-        "property": "$disabledOpacity",
-        "value": ".8",
-        "comment": "Opacity of the disabled elements"
-      },
-      {
-        "property": "$maskBg",
-        "value": "rgba(0, 0, 0, 0.4)",
-        "comment": "Background of the modal layer"
-      },
-      {
-        "property": "$loadingIconFontSize",
-        "value": "2rem",
-        "comment": "Font size of the loading icons"
-      },
-      {
-        "property": "$errorColor",
-        "value": "#e4677e",
-        "comment": "Color to use on an invalid element e.g. invalid input"
-      },
-      {
-        "property": "$focusOutlineColor",
-        "value": "#bfd1f6",
-        "comment": "Outline color of a focused element"
-      },
-      {
-        "property": "$focusOutline",
-        "value": "0 none",
-        "comment": "Outline of a focused element"
-      },
-      {
-        "property": "$focusOutlineOffset",
-        "value": "0",
-        "comment": "Outline offset of a focused element"
-      },
-      {
-        "property": "$focusShadow",
-        "value": "0 0 0 0.2rem $focusOutlineColor",
-        "comment": "Box shadow of a focused element"
-      },
-      {
-        "property": "$actionIconWidth",
-        "value": "2rem",
-        "comment": "Width of an action icon"
-      },
-      {
-        "property": "$actionIconHeight",
-        "value": "2rem",
-        "comment": "Height of an action icon"
-      },
-      {
-        "property": "$actionIconBg",
-        "value": "transparent",
-        "comment": "Background of an action icon"
-      },
-      {
-        "property": "$actionIconBorder",
-        "value": "0 none",
-        "comment": "Border of an action icon"
-      },
-      {
-        "property": "$actionIconColor",
+        "property": "$paginatorTextColor",
         "value": "$textSecondaryColor",
-        "comment": "Color of an action icon"
+        "comment": "Text color of a paginator"
       },
       {
-        "property": "$actionIconHoverBg",
-        "value": "#e9ecef",
-        "comment": "Backgroun of an action icon in hover state"
+        "property": "$paginatorBorder",
+        "value": "solid #e9ecef",
+        "comment": "Border of a paginator"
       },
       {
-        "property": "$actionIconHoverBorderColor",
+        "property": "$paginatorBorderWidth",
+        "value": "0",
+        "comment": "Border width of a paginator"
+      },
+      {
+        "property": "$paginatorPadding",
+        "value": ".5rem 1rem",
+        "comment": "Padding of a paginator"
+      },
+      {
+        "property": "$paginatorElementWidth",
+        "value": "$buttonIconOnlyWidth",
+        "comment": "Width of a paginator element"
+      },
+      {
+        "property": "$paginatorElementHeight",
+        "value": "$buttonIconOnlyWidth",
+        "comment": "Height of a paginator element"
+      },
+      {
+        "property": "$paginatorElementBg",
         "value": "transparent",
-        "comment": "Border of an action icon in hover state"
+        "comment": "Background of a paginator element"
       },
       {
-        "property": "$actionIconHoverColor",
+        "property": "$paginatorElementBorder",
+        "value": "0 none",
+        "comment": "Border of a paginator element"
+      },
+      {
+        "property": "$paginatorElementIconColor",
+        "value": "$textSecondaryColor",
+        "comment": "Icon color of a paginator element"
+      },
+      {
+        "property": "$paginatorElementHoverBg",
+        "value": "#e9ecef",
+        "comment": "Background of a paginator element in hover state"
+      },
+      {
+        "property": "$paginatorElementHoverBorderColor",
+        "value": "transparent",
+        "comment": "Border color of a paginator element in hover state"
+      },
+      {
+        "property": "$paginatorElementIconHoverColor",
+        "value": "$textSecondaryColor",
+        "comment": "Icon color of a paginator element in hover state"
+      },
+      {
+        "property": "$paginatorElementBorderRadius",
+        "value": "$borderRadius",
+        "comment": "Border radius of a paginator element"
+      },
+      {
+        "property": "$paginatorElementMargin",
+        "value": ".143rem",
+        "comment": "Margin of a paginator element"
+      },
+      {
+        "property": "$paginatorElementPadding",
+        "value": "0",
+        "comment": "Padding of a paginator element"
+      },
+      {
+        "property": "$tableHeaderBorder",
+        "value": "1px solid #e9ecef",
+        "comment": "Border of a table header"
+      },
+      {
+        "property": "$tableHeaderBorderWidth",
+        "value": "0 0 1px 0",
+        "comment": "Border width of a table header"
+      },
+      {
+        "property": "$tableHeaderBg",
+        "value": "#f8f9fa",
+        "comment": "Background of a table header"
+      },
+      {
+        "property": "$tableHeaderTextColor",
         "value": "$textColor",
-        "comment": "Color of an action icon in hover state"
+        "comment": "Text color of a table header"
       },
       {
-        "property": "$actionIconBorderRadius",
-        "value": "50%",
-        "comment": "Border radius of an action icon"
+        "property": "$tableHeaderFontWeight",
+        "value": "600",
+        "comment": "Font weight of a table header"
       },
       {
-        "property": "$scaleSM",
-        "value": "0.875",
-        "comment": "Scale factor of small component size"
+        "property": "$tableHeaderPadding",
+        "value": "1rem 1rem",
+        "comment": "Padding of a table header, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
       },
       {
-        "property": "$scaleLG",
+        "property": "$tableHeaderCellPadding",
+        "value": "1rem 1rem",
+        "comment": "Padding of a table header cell, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
+      },
+      {
+        "property": "$tableHeaderCellBg",
+        "value": "#f8f9fa",
+        "comment": "Background of a table header cell"
+      },
+      {
+        "property": "$tableHeaderCellTextColor",
+        "value": "$textColor",
+        "comment": "Text color of a table header cell"
+      },
+      {
+        "property": "$tableHeaderCellFontWeight",
+        "value": "600",
+        "comment": "Font weight of a table header cell"
+      },
+      {
+        "property": "$tableHeaderCellBorder",
+        "value": "1px solid #e9ecef",
+        "comment": "Border of a table header cell"
+      },
+      {
+        "property": "$tableHeaderCellBorderWidth",
+        "value": "0 0 1px 0",
+        "comment": "Border width of a table header cell"
+      },
+      {
+        "property": "$tableHeaderCellHoverBg",
+        "value": "#e9ecef",
+        "comment": "Background of a table header cell in hover state"
+      },
+      {
+        "property": "$tableHeaderCellTextHoverColor",
+        "value": "$textColor",
+        "comment": "Text color of a table header cell in hover state"
+      },
+      {
+        "property": "$tableHeaderCellIconColor",
+        "value": "$textSecondaryColor",
+        "comment": "Icon color of a table header cell"
+      },
+      {
+        "property": "$tableHeaderCellIconHoverColor",
+        "value": "$textSecondaryColor",
+        "comment": "Icon color of a table header cell in hover state"
+      },
+      {
+        "property": "$tableHeaderCellHighlightBg",
+        "value": "#f8f9fa",
+        "comment": "Background of a table header cell in sorted state"
+      },
+      {
+        "property": "$tableHeaderCellHighlightTextColor",
+        "value": "$primaryColor",
+        "comment": "Text color of a table header cell in sorted state"
+      },
+      {
+        "property": "$tableHeaderCellHighlightHoverBg",
+        "value": "#e9ecef",
+        "comment": "Hover background of a table header cell in sorted state"
+      },
+      {
+        "property": "$tableHeaderCellHighlightTextHoverColor",
+        "value": "$primaryColor",
+        "comment": "Hover text color of a table header cell in sorted state"
+      },
+      {
+        "property": "$tableSortableColumnBadgeSize",
+        "value": "1.143rem",
+        "comment": "Size of a multiple column sorting order indicator"
+      },
+      {
+        "property": "$tableBodyRowBg",
+        "value": "#ffffff",
+        "comment": "Background of a table body row"
+      },
+      {
+        "property": "$tableBodyRowTextColor",
+        "value": "$textColor",
+        "comment": "Text color of a table body row"
+      },
+      {
+        "property": "$tableBodyRowEvenBg",
+        "value": "#ffffff",
+        "comment": "Background of an even table body row"
+      },
+      {
+        "property": "$tableBodyRowHoverBg",
+        "value": "#e9ecef",
+        "comment": "Background of a table body row in hover state"
+      },
+      {
+        "property": "$tableBodyRowTextHoverColor",
+        "value": "$textColor",
+        "comment": "Text color of a table body row in hover state"
+      },
+      {
+        "property": "$tableBodyCellBorder",
+        "value": "1px solid rgba(0,0,0,0.08)",
+        "comment": "Border for a cell of a table toby row"
+      },
+      {
+        "property": "$tableBodyCellBorderWidth",
+        "value": "0 0 1px 0",
+        "comment": "Border width for a cell of a table toby row"
+      },
+      {
+        "property": "$tableBodyCellPadding",
+        "value": "1rem 1rem",
+        "comment": "Padding for a cell of a table toby row, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
+      },
+      {
+        "property": "$tableFooterCellPadding",
+        "value": "1rem 1rem",
+        "comment": "Padding of a table footer cell, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
+      },
+      {
+        "property": "$tableFooterCellBg",
+        "value": "#f8f9fa",
+        "comment": "Background of a table footer cell"
+      },
+      {
+        "property": "$tableFooterCellTextColor",
+        "value": "$textColor",
+        "comment": "Text color of a table footer cell"
+      },
+      {
+        "property": "$tableFooterCellFontWeight",
+        "value": "600",
+        "comment": "Font weight of a table footer cell"
+      },
+      {
+        "property": "$tableFooterCellBorder",
+        "value": "1px solid #e9ecef",
+        "comment": "Border of a table footer cell"
+      },
+      {
+        "property": "$tableFooterCellBorderWidth",
+        "value": "0 0 1px 0",
+        "comment": "Border width of a table footer cell"
+      },
+      {
+        "property": "$tableResizerHelperBg",
+        "value": "$primaryColor",
+        "comment": "Backgground of a table column resize indicator bar"
+      },
+      {
+        "property": "$tableFooterBorder",
+        "value": "1px solid #e9ecef",
+        "comment": "Border of a table footer"
+      },
+      {
+        "property": "$tableFooterBorderWidth",
+        "value": "0 0 1px 0",
+        "comment": "Border width of a table footer"
+      },
+      {
+        "property": "$tableFooterBg",
+        "value": "#f8f9fa",
+        "comment": "Background of a table footer"
+      },
+      {
+        "property": "$tableFooterTextColor",
+        "value": "$textColor",
+        "comment": "Text color of a table footer"
+      },
+      {
+        "property": "$tableFooterFontWeight",
+        "value": "600",
+        "comment": "Font weight of a table footer"
+      },
+      {
+        "property": "$tableFooterPadding",
+        "value": "1rem 1rem",
+        "comment": "Padding of a table footer, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
+      },
+      {
+        "property": "$tableCellContentAlignment",
+        "value": "left",
+        "comment": "Content alignment of a table cell"
+      },
+      {
+        "property": "$tableTopPaginatorBorderWidth",
+        "value": "1px 0 1px 0",
+        "comment": "Border width of a table paginator positioned at top"
+      },
+      {
+        "property": "$tableBottomPaginatorBorderWidth",
+        "value": "0 0 1px 0",
+        "comment": "Border width of a table paginator positioned at bottom"
+      },
+      {
+        "property": "$tableScaleSM",
+        "value": "0.5",
+        "comment": "Scale factor of a small datatable"
+      },
+      {
+        "property": "$tableScaleLG",
         "value": "1.25",
-        "comment": "Scale factor of small large size"
+        "comment": "Scale factor of a large datatable"
+      },
+      {
+        "property": "$dataViewContentPadding",
+        "value": "0",
+        "comment": "Padding for content section of a dataview"
+      },
+      {
+        "property": "$dataViewContentBorder",
+        "value": "0 none",
+        "comment": "Border for content section of a dataview"
+      },
+      {
+        "property": "$dataViewListItemBorder",
+        "value": "solid #e9ecef",
+        "comment": "Border for an item of a dataview in list orientation"
+      },
+      {
+        "property": "$dataViewListItemBorderWidth",
+        "value": "0 0 1px 0",
+        "comment": "Border width for an item of a dataview in list orientation"
+      },
+      {
+        "property": "$fullCalendarEventBg",
+        "value": "$primaryDarkColor",
+        "comment": "Background of a full calendar event"
+      },
+      {
+        "property": "$fullCalendarEventBorderColor",
+        "value": "$primaryDarkColor",
+        "comment": "Border color of a full calendar event"
+      },
+      {
+        "property": "$fullCalendarEventBorder",
+        "value": "1px solid $primaryDarkColor",
+        "comment": "Border of a full calendar event"
+      },
+      {
+        "property": "$fullCalendarEventTextColor",
+        "value": "$primaryTextColor",
+        "comment": "Text color of a full calendar event"
+      },
+      {
+        "property": "$treeContainerPadding",
+        "value": "0.286rem",
+        "comment": "Padding of a tree"
+      },
+      {
+        "property": "$treeNodePadding",
+        "value": "0.143rem",
+        "comment": "Padding of a tree node"
+      },
+      {
+        "property": "$treeNodeContentPadding",
+        "value": ".5rem",
+        "comment": "Padding of a tree node content consists of toggler, icon and label"
+      },
+      {
+        "property": "$treeNodeChildrenPadding",
+        "value": "0 0 0 1rem",
+        "comment": "Padding of a tree node children container"
+      },
+      {
+        "property": "$treeNodeIconColor",
+        "value": "$textSecondaryColor",
+        "comment": "Color of a treenode data icon, $dataActionIconColor for the toggler element"
+      },
+      {
+        "property": "$timelineVerticalEventContentPadding",
+        "value": "0 1rem",
+        "comment": "Padding of a vertical timeline content element"
+      },
+      {
+        "property": "$timelineHorizontalEventContentPadding",
+        "value": "1rem 0",
+        "comment": "Padding of a horizontal timeline content element"
+      },
+      {
+        "property": "$timelineEventMarkerWidth",
+        "value": "1rem",
+        "comment": "Width of a timeline marker"
+      },
+      {
+        "property": "$timelineEventMarkerHeight",
+        "value": "1rem",
+        "comment": "Height of a timeline marker"
+      },
+      {
+        "property": "$timelineEventMarkerBorderRadius",
+        "value": "50%",
+        "comment": "Border radius of a timeline marker"
+      },
+      {
+        "property": "$timelineEventMarkerBorder",
+        "value": "2px solid $highlightBg",
+        "comment": "Border of a timeline marker"
+      },
+      {
+        "property": "$timelineEventMarkerBackground",
+        "value": "$highlightTextColor",
+        "comment": "Background of a timeline marker"
+      },
+      {
+        "property": "$timelineEventConnectorSize",
+        "value": "2px",
+        "comment": "Size of a timeline connector"
+      },
+      {
+        "property": "$timelineEventColor",
+        "value": "#dee2e6",
+        "comment": "Color of a timeline event"
+      },
+      {
+        "property": "$organizationChartConnectorColor",
+        "value": "#dee2e6",
+        "comment": "Color of a line to connect to organization chart nodes"
       }
     ]
   },
@@ -2725,281 +2725,6 @@
     ]
   },
   {
-    "title": "misc",
-    "items": [
-      {
-        "property": "$inplacePadding",
-        "value": "$inputPadding",
-        "comment": "Padding of an inplace element"
-      },
-      {
-        "property": "$inplaceHoverBg",
-        "value": "#e9ecef",
-        "comment": "Background of an inplace element in hover state"
-      },
-      {
-        "property": "$inplaceTextHoverColor",
-        "value": "$textColor",
-        "comment": "Text color of an inplace element in hover state"
-      },
-      {
-        "property": "$badgeBg",
-        "value": "$primaryColor",
-        "comment": "Background of a badge"
-      },
-      {
-        "property": "$badgeTextColor",
-        "value": "$primaryTextColor",
-        "comment": "Text color of a badge"
-      },
-      {
-        "property": "$badgeMinWidth",
-        "value": "1.5rem",
-        "comment": "Minimum width of a badge"
-      },
-      {
-        "property": "$badgeHeight",
-        "value": "1.5rem",
-        "comment": "Height of a badge"
-      },
-      {
-        "property": "$badgeFontWeight",
-        "value": "700",
-        "comment": "Font weight of a badge"
-      },
-      {
-        "property": "$badgeFontSize",
-        "value": ".75rem",
-        "comment": "Font size of a badge"
-      },
-      {
-        "property": "$tagPadding",
-        "value": ".25rem .4rem",
-        "comment": "Padding of a badge"
-      },
-      {
-        "property": "$progressBarHeight",
-        "value": "1.5rem",
-        "comment": "Height of a progress bar"
-      },
-      {
-        "property": "$progressBarBorder",
-        "value": "0 none",
-        "comment": "Border of a progress bar"
-      },
-      {
-        "property": "$progressBarBg",
-        "value": "#dee2e6",
-        "comment": "Background of a progress bar"
-      },
-      {
-        "property": "$progressBarValueBg",
-        "value": "$primaryColor",
-        "comment": "Background of a progress bar value"
-      },
-      {
-        "property": "$progressBarValueTextColor",
-        "value": "$primaryTextColor",
-        "comment": "Text color of a progress bar value"
-      },
-      {
-        "property": "$progressSpinnerStrokeColor",
-        "value": "$errorMessageTextColor !default",
-        "comment": "Stroke color of a progress spinner"
-      },
-      {
-        "property": "$progressSpinnerColorOne",
-        "value": "$errorMessageTextColor !default",
-        "comment": "First spinner color of a progress spinner"
-      },
-      {
-        "property": "$progressSpinnerColorTwo",
-        "value": "$infoMessageTextColor !default",
-        "comment": "Second spinner color of a progress spinner"
-      },
-      {
-        "property": "$progressSpinnerColorThree",
-        "value": "$successMessageTextColor !default",
-        "comment": "Third spinner color of a progress spinner"
-      },
-      {
-        "property": "$progressSpinnerColorFour",
-        "value": "$warningMessageTextColor !default",
-        "comment": "Fourth spinner color of a progress spinner"
-      },
-      {
-        "property": "$avatarBg",
-        "value": "#dee2e6",
-        "comment": "Background of an avatar"
-      },
-      {
-        "property": "$avatarTextColor",
-        "value": "$textColor",
-        "comment": "Text color of an avatar"
-      },
-      {
-        "property": "$chipBg",
-        "value": "#dee2e6",
-        "comment": "Background of a chip"
-      },
-      {
-        "property": "$chipTextColor",
-        "value": "$textColor",
-        "comment": "Text color of a chip"
-      },
-      {
-        "property": "$chipBorderRadius",
-        "value": "16px",
-        "comment": "Border radius of a chip"
-      },
-      {
-        "property": "$chipFocusBg",
-        "value": "#dee2e6 !default",
-        "comment": "Background of a chip in focus state"
-      },
-      {
-        "property": "$chipFocusTextColor",
-        "value": "$textColor !default",
-        "comment": "Color of a chip in focus state"
-      },
-      {
-        "property": "$scrollTopBg",
-        "value": "rgba(0,0,0,0.7)",
-        "comment": "Background of a scrollTop"
-      },
-      {
-        "property": "$scrollTopHoverBg",
-        "value": "rgba(0,0,0,0.8)",
-        "comment": "Background of a scrollTop in hover state"
-      },
-      {
-        "property": "$scrollTopWidth",
-        "value": "3rem",
-        "comment": "Width of a scrollTop"
-      },
-      {
-        "property": "$scrollTopHeight",
-        "value": "3rem",
-        "comment": "Height of a scrollTop"
-      },
-      {
-        "property": "$scrollTopBorderRadius",
-        "value": "50%",
-        "comment": "Border radius of a scrollTop"
-      },
-      {
-        "property": "$scrollTopFontSize",
-        "value": "1.5rem",
-        "comment": "Font size of a scrollTop"
-      },
-      {
-        "property": "$scrollTopTextColor",
-        "value": "#f8f9fa",
-        "comment": "Text color of a scrollTop"
-      },
-      {
-        "property": "$skeletonBg",
-        "value": "#e9ecef",
-        "comment": "Background of a skeleton"
-      },
-      {
-        "property": "$skeletonAnimationBg",
-        "value": "rgba(255,255,255,0.4)",
-        "comment": "Background of a skeleton animation"
-      }
-    ]
-  },
-  {
-    "title": "overlay",
-    "items": [
-      {
-        "property": "$overlayContentBorder",
-        "value": "0 none",
-        "comment": "Border of an overlay container element such as dialog or overlaypanel"
-      },
-      {
-        "property": "$overlayContentBg",
-        "value": "$panelContentBg",
-        "comment": "Background of an overlay container element such as dialog or overlaypanel"
-      },
-      {
-        "property": "$overlayContainerShadow",
-        "value": "0 0 14px 0 rgba(0, 0, 0, 0.1)",
-        "comment": "Box shadow of an overlay container element such as dialog or overlaypanel"
-      },
-      {
-        "property": "$dialogHeaderBg",
-        "value": "#ffffff",
-        "comment": "Background of a dialog header"
-      },
-      {
-        "property": "$dialogHeaderBorder",
-        "value": "1px solid #dee2e6",
-        "comment": "Border of a dialog header"
-      },
-      {
-        "property": "$dialogHeaderTextColor",
-        "value": "$panelHeaderTextColor",
-        "comment": "Text color of a dialog header"
-      },
-      {
-        "property": "$dialogHeaderFontWeight",
-        "value": "600",
-        "comment": "Font weight of a dialog header"
-      },
-      {
-        "property": "$dialogHeaderFontSize",
-        "value": "1.25rem",
-        "comment": "Font size of a dialog header"
-      },
-      {
-        "property": "$dialogHeaderPadding",
-        "value": "1.5rem",
-        "comment": "Padding of a dialog header"
-      },
-      {
-        "property": "$dialogContentPadding",
-        "value": "0 1.5rem",
-        "comment": "Padding of a dialog content"
-      },
-      {
-        "property": "$dialogFooterBorder",
-        "value": "1px solid #dee2e6",
-        "comment": "Border of a dialog footer"
-      },
-      {
-        "property": "$dialogFooterPadding",
-        "value": "1.5rem",
-        "comment": "Padding of a dialog footer"
-      },
-      {
-        "property": "$confirmPopupContentPadding",
-        "value": "$panelContentPadding",
-        "comment": "Padding of a confirmpopup content"
-      },
-      {
-        "property": "$confirmPopupFooterPadding",
-        "value": "0 1rem 1rem 1rem",
-        "comment": "Padding of a confirmpopup footer"
-      },
-      {
-        "property": "$tooltipBg",
-        "value": "$textColor",
-        "comment": "Background of a tooltip"
-      },
-      {
-        "property": "$tooltipTextColor",
-        "value": "#ffffff",
-        "comment": "Text color of a tooltip"
-      },
-      {
-        "property": "$tooltipPadding",
-        "value": "$inputPadding",
-        "comment": "Padding of a tooltip"
-      }
-    ]
-  },
-  {
     "title": "panel",
     "items": [
       {
@@ -3411,6 +3136,281 @@
         "property": "$splitterGutterHandleBg",
         "value": "#dee2e6",
         "comment": "Background of the splitter gutter handle"
+      }
+    ]
+  },
+  {
+    "title": "overlay",
+    "items": [
+      {
+        "property": "$overlayContentBorder",
+        "value": "0 none",
+        "comment": "Border of an overlay container element such as dialog or overlaypanel"
+      },
+      {
+        "property": "$overlayContentBg",
+        "value": "$panelContentBg",
+        "comment": "Background of an overlay container element such as dialog or overlaypanel"
+      },
+      {
+        "property": "$overlayContainerShadow",
+        "value": "0 0 14px 0 rgba(0, 0, 0, 0.1)",
+        "comment": "Box shadow of an overlay container element such as dialog or overlaypanel"
+      },
+      {
+        "property": "$dialogHeaderBg",
+        "value": "#ffffff",
+        "comment": "Background of a dialog header"
+      },
+      {
+        "property": "$dialogHeaderBorder",
+        "value": "1px solid #dee2e6",
+        "comment": "Border of a dialog header"
+      },
+      {
+        "property": "$dialogHeaderTextColor",
+        "value": "$panelHeaderTextColor",
+        "comment": "Text color of a dialog header"
+      },
+      {
+        "property": "$dialogHeaderFontWeight",
+        "value": "600",
+        "comment": "Font weight of a dialog header"
+      },
+      {
+        "property": "$dialogHeaderFontSize",
+        "value": "1.25rem",
+        "comment": "Font size of a dialog header"
+      },
+      {
+        "property": "$dialogHeaderPadding",
+        "value": "1.5rem",
+        "comment": "Padding of a dialog header"
+      },
+      {
+        "property": "$dialogContentPadding",
+        "value": "0 1.5rem",
+        "comment": "Padding of a dialog content"
+      },
+      {
+        "property": "$dialogFooterBorder",
+        "value": "1px solid #dee2e6",
+        "comment": "Border of a dialog footer"
+      },
+      {
+        "property": "$dialogFooterPadding",
+        "value": "1.5rem",
+        "comment": "Padding of a dialog footer"
+      },
+      {
+        "property": "$confirmPopupContentPadding",
+        "value": "$panelContentPadding",
+        "comment": "Padding of a confirmpopup content"
+      },
+      {
+        "property": "$confirmPopupFooterPadding",
+        "value": "0 1rem 1rem 1rem",
+        "comment": "Padding of a confirmpopup footer"
+      },
+      {
+        "property": "$tooltipBg",
+        "value": "$textColor",
+        "comment": "Background of a tooltip"
+      },
+      {
+        "property": "$tooltipTextColor",
+        "value": "#ffffff",
+        "comment": "Text color of a tooltip"
+      },
+      {
+        "property": "$tooltipPadding",
+        "value": "$inputPadding",
+        "comment": "Padding of a tooltip"
+      }
+    ]
+  },
+  {
+    "title": "misc",
+    "items": [
+      {
+        "property": "$inplacePadding",
+        "value": "$inputPadding",
+        "comment": "Padding of an inplace element"
+      },
+      {
+        "property": "$inplaceHoverBg",
+        "value": "#e9ecef",
+        "comment": "Background of an inplace element in hover state"
+      },
+      {
+        "property": "$inplaceTextHoverColor",
+        "value": "$textColor",
+        "comment": "Text color of an inplace element in hover state"
+      },
+      {
+        "property": "$badgeBg",
+        "value": "$primaryColor",
+        "comment": "Background of a badge"
+      },
+      {
+        "property": "$badgeTextColor",
+        "value": "$primaryTextColor",
+        "comment": "Text color of a badge"
+      },
+      {
+        "property": "$badgeMinWidth",
+        "value": "1.5rem",
+        "comment": "Minimum width of a badge"
+      },
+      {
+        "property": "$badgeHeight",
+        "value": "1.5rem",
+        "comment": "Height of a badge"
+      },
+      {
+        "property": "$badgeFontWeight",
+        "value": "700",
+        "comment": "Font weight of a badge"
+      },
+      {
+        "property": "$badgeFontSize",
+        "value": ".75rem",
+        "comment": "Font size of a badge"
+      },
+      {
+        "property": "$tagPadding",
+        "value": ".25rem .4rem",
+        "comment": "Padding of a badge"
+      },
+      {
+        "property": "$progressBarHeight",
+        "value": "1.5rem",
+        "comment": "Height of a progress bar"
+      },
+      {
+        "property": "$progressBarBorder",
+        "value": "0 none",
+        "comment": "Border of a progress bar"
+      },
+      {
+        "property": "$progressBarBg",
+        "value": "#dee2e6",
+        "comment": "Background of a progress bar"
+      },
+      {
+        "property": "$progressBarValueBg",
+        "value": "$primaryColor",
+        "comment": "Background of a progress bar value"
+      },
+      {
+        "property": "$progressBarValueTextColor",
+        "value": "$primaryTextColor",
+        "comment": "Text color of a progress bar value"
+      },
+      {
+        "property": "$progressSpinnerStrokeColor",
+        "value": "$errorMessageTextColor !default",
+        "comment": "Stroke color of a progress spinner"
+      },
+      {
+        "property": "$progressSpinnerColorOne",
+        "value": "$errorMessageTextColor !default",
+        "comment": "First spinner color of a progress spinner"
+      },
+      {
+        "property": "$progressSpinnerColorTwo",
+        "value": "$infoMessageTextColor !default",
+        "comment": "Second spinner color of a progress spinner"
+      },
+      {
+        "property": "$progressSpinnerColorThree",
+        "value": "$successMessageTextColor !default",
+        "comment": "Third spinner color of a progress spinner"
+      },
+      {
+        "property": "$progressSpinnerColorFour",
+        "value": "$warningMessageTextColor !default",
+        "comment": "Fourth spinner color of a progress spinner"
+      },
+      {
+        "property": "$avatarBg",
+        "value": "#dee2e6",
+        "comment": "Background of an avatar"
+      },
+      {
+        "property": "$avatarTextColor",
+        "value": "$textColor",
+        "comment": "Text color of an avatar"
+      },
+      {
+        "property": "$chipBg",
+        "value": "#dee2e6",
+        "comment": "Background of a chip"
+      },
+      {
+        "property": "$chipTextColor",
+        "value": "$textColor",
+        "comment": "Text color of a chip"
+      },
+      {
+        "property": "$chipBorderRadius",
+        "value": "16px",
+        "comment": "Border radius of a chip"
+      },
+      {
+        "property": "$chipFocusBg",
+        "value": "#dee2e6 !default",
+        "comment": "Background of a chip in focus state"
+      },
+      {
+        "property": "$chipFocusTextColor",
+        "value": "$textColor !default",
+        "comment": "Color of a chip in focus state"
+      },
+      {
+        "property": "$scrollTopBg",
+        "value": "rgba(0,0,0,0.7)",
+        "comment": "Background of a scrollTop"
+      },
+      {
+        "property": "$scrollTopHoverBg",
+        "value": "rgba(0,0,0,0.8)",
+        "comment": "Background of a scrollTop in hover state"
+      },
+      {
+        "property": "$scrollTopWidth",
+        "value": "3rem",
+        "comment": "Width of a scrollTop"
+      },
+      {
+        "property": "$scrollTopHeight",
+        "value": "3rem",
+        "comment": "Height of a scrollTop"
+      },
+      {
+        "property": "$scrollTopBorderRadius",
+        "value": "50%",
+        "comment": "Border radius of a scrollTop"
+      },
+      {
+        "property": "$scrollTopFontSize",
+        "value": "1.5rem",
+        "comment": "Font size of a scrollTop"
+      },
+      {
+        "property": "$scrollTopTextColor",
+        "value": "#f8f9fa",
+        "comment": "Text color of a scrollTop"
+      },
+      {
+        "property": "$skeletonBg",
+        "value": "#e9ecef",
+        "comment": "Background of a skeleton"
+      },
+      {
+        "property": "$skeletonAnimationBg",
+        "value": "rgba(255,255,255,0.4)",
+        "comment": "Background of a skeleton animation"
       }
     ]
   }
