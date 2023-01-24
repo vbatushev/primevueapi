@@ -131,7 +131,7 @@ func parseContent(resp *http.Response) (result string, sections []Section, err e
 // @author Vitaly Batushev
 // @returns Фрагмент структур Section.
 func sortSections(sections []Section) []Section {
-	sectionNames := []string{"general", "button", "form", "data", "media", "menu", "message", "panel", "overlay", "misc"}
+	sectionNames := []string{"general", "form", "button", "data", "panel", "overlay", "menu", "message", "media", "misc"}
 	result := make([]Section, len(sectionNames))
 	var unknowns []Section
 	for _, section := range sections {

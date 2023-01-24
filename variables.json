@@ -180,556 +180,6 @@
     ]
   },
   {
-    "title": "button",
-    "items": [
-      {
-        "property": "$buttonPadding",
-        "value": ".5rem 1rem",
-        "comment": "Padding of a button, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
-      },
-      {
-        "property": "$buttonIconOnlyWidth",
-        "value": "2.357rem",
-        "comment": "Width of a button having an icon with no label"
-      },
-      {
-        "property": "$buttonIconOnlyPadding",
-        "value": ".5rem 0",
-        "comment": "Padding of a button having an icon with no label"
-      },
-      {
-        "property": "$buttonBg",
-        "value": "$primaryColor",
-        "comment": "Background of a button"
-      },
-      {
-        "property": "$buttonTextColor",
-        "value": "$primaryTextColor",
-        "comment": "Text color of a button"
-      },
-      {
-        "property": "$buttonBorder",
-        "value": "1px solid $primaryColor",
-        "comment": "Border of a button"
-      },
-      {
-        "property": "$buttonHoverBg",
-        "value": "$primaryDarkColor",
-        "comment": "Background of a button in hover state"
-      },
-      {
-        "property": "$buttonTextHoverColor",
-        "value": "$primaryTextColor",
-        "comment": "Text color of a button in hover state"
-      },
-      {
-        "property": "$buttonHoverBorderColor",
-        "value": "$primaryDarkColor",
-        "comment": "Border color of a button in hover state"
-      },
-      {
-        "property": "$buttonActiveBg",
-        "value": "$primaryDarkerColor",
-        "comment": "Background of a button in pressed state"
-      },
-      {
-        "property": "$buttonTextActiveColor",
-        "value": "$primaryTextColor",
-        "comment": "Color of a button in pressed state"
-      },
-      {
-        "property": "$buttonActiveBorderColor",
-        "value": "$primaryDarkerColor",
-        "comment": "Border color of a button in pressed state"
-      },
-      {
-        "property": "$raisedButtonShadow",
-        "value": "0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12)",
-        "comment": "Shadow of a raised button"
-      },
-      {
-        "property": "$roundedButtonBorderRadius",
-        "value": "2rem",
-        "comment": "Border radius of a rounded button"
-      },
-      {
-        "property": "$textButtonHoverBgOpacity",
-        "value": ".04",
-        "comment": "Alpha level of a text button background in hover state"
-      },
-      {
-        "property": "$textButtonActiveBgOpacity",
-        "value": ".16",
-        "comment": "Alpha level of a text button background in active state"
-      },
-      {
-        "property": "$outlinedButtonBorder",
-        "value": "1px solid",
-        "comment": "Border style of a outlined button"
-      },
-      {
-        "property": "$plainButtonTextColor",
-        "value": "#6c757d",
-        "comment": "Text color of a plain text button"
-      },
-      {
-        "property": "$plainButtonHoverBgColor",
-        "value": "#e9ecef",
-        "comment": "Background color of a plain text button in hover state"
-      },
-      {
-        "property": "$plainButtonActiveBgColor",
-        "value": "#dee2e6",
-        "comment": "Background color of a plain text button in active state"
-      },
-      {
-        "property": "$secondaryButtonBg",
-        "value": "#607D8B",
-        "comment": "Background of a secondary button"
-      },
-      {
-        "property": "$secondaryButtonTextColor",
-        "value": "#ffffff",
-        "comment": "Text color of a secondary button"
-      },
-      {
-        "property": "$secondaryButtonBorder",
-        "value": "1px solid #607D8B",
-        "comment": "Border of a secondary button"
-      },
-      {
-        "property": "$secondaryButtonHoverBg",
-        "value": "#546E7A",
-        "comment": "Background of a secondary button in hover state"
-      },
-      {
-        "property": "$secondaryButtonTextHoverColor",
-        "value": "#ffffff",
-        "comment": "Text color of a secondary button in hover state"
-      },
-      {
-        "property": "$secondaryButtonHoverBorderColor",
-        "value": "#546E7A",
-        "comment": "Border color of a secondary button in hover state"
-      },
-      {
-        "property": "$secondaryButtonActiveBg",
-        "value": "#455A64",
-        "comment": "Background of a secondary button in pressed state"
-      },
-      {
-        "property": "$secondaryButtonTextActiveColor",
-        "value": "#ffffff",
-        "comment": "Text color of a secondary button in pressed state"
-      },
-      {
-        "property": "$secondaryButtonActiveBorderColor",
-        "value": "#455A64",
-        "comment": "Border color of a secondary button in pressed state"
-      },
-      {
-        "property": "$secondaryButtonFocusShadow",
-        "value": "0 0 0 0.2rem #B0BEC5",
-        "comment": "Box shadow of a secondary button in focused state"
-      },
-      {
-        "property": "$infoButtonBg",
-        "value": "#03A9F4",
-        "comment": "Background of an info button"
-      },
-      {
-        "property": "$infoButtonTextColor",
-        "value": "#ffffff",
-        "comment": "Text color of an info button"
-      },
-      {
-        "property": "$infoButtonBorder",
-        "value": "1px solid #03A9F4",
-        "comment": "Border of an info button"
-      },
-      {
-        "property": "$infoButtonHoverBg",
-        "value": "#039BE5",
-        "comment": "Background of an info button in hover state"
-      },
-      {
-        "property": "$infoButtonTextHoverColor",
-        "value": "#ffffff",
-        "comment": "Text color of an info button in hover state"
-      },
-      {
-        "property": "$infoButtonHoverBorderColor",
-        "value": "#039BE5",
-        "comment": "Border color of an info button in hover state"
-      },
-      {
-        "property": "$infoButtonActiveBg",
-        "value": "#0288D1",
-        "comment": "Background of an info button in pressed state"
-      },
-      {
-        "property": "$infoButtonTextActiveColor",
-        "value": "#ffffff",
-        "comment": "Text color of an info button in pressed state"
-      },
-      {
-        "property": "$infoButtonActiveBorderColor",
-        "value": "#0288D1",
-        "comment": "Border color of an info button in pressed state"
-      },
-      {
-        "property": "$infoButtonFocusShadow",
-        "value": "0 0 0 0.2rem lighten($infoButtonBg, 35%)",
-        "comment": "Box shadow of an info button in focused state"
-      },
-      {
-        "property": "$successButtonBg",
-        "value": "#4CAF50",
-        "comment": "Background of a success button"
-      },
-      {
-        "property": "$successButtonTextColor",
-        "value": "#ffffff",
-        "comment": "Text color of a success button"
-      },
-      {
-        "property": "$successButtonBorder",
-        "value": "1px solid #4CAF50",
-        "comment": "Border of a success button"
-      },
-      {
-        "property": "$successButtonHoverBg",
-        "value": "#43A047",
-        "comment": "Background of a success button in hover state"
-      },
-      {
-        "property": "$successButtonTextHoverColor",
-        "value": "#ffffff",
-        "comment": "Text color of a success button in hover state"
-      },
-      {
-        "property": "$successButtonHoverBorderColor",
-        "value": "#43A047",
-        "comment": "Border color of a success button in hover state"
-      },
-      {
-        "property": "$successButtonActiveBg",
-        "value": "#388E3C",
-        "comment": "Background of a success button in pressed state"
-      },
-      {
-        "property": "$successButtonTextActiveColor",
-        "value": "#ffffff",
-        "comment": "Text Color of a success button in pressed state"
-      },
-      {
-        "property": "$successButtonActiveBorderColor",
-        "value": "#388E3C",
-        "comment": "Border color of a success button in pressed state"
-      },
-      {
-        "property": "$successButtonFocusShadow",
-        "value": "0 0 0 0.2rem lighten($successButtonBg, 35%)",
-        "comment": "Box shadow of a success button in focused state"
-      },
-      {
-        "property": "$warningButtonBg",
-        "value": "#FFC107",
-        "comment": "Background of a warning button"
-      },
-      {
-        "property": "$warningButtonTextColor",
-        "value": "$textColor",
-        "comment": "Text color of a warning button"
-      },
-      {
-        "property": "$warningButtonBorder",
-        "value": "1px solid #FFC107",
-        "comment": "Border of a warning button"
-      },
-      {
-        "property": "$warningButtonHoverBg",
-        "value": "#FFB300",
-        "comment": "Background of a warning button in hover state"
-      },
-      {
-        "property": "$warningButtonTextHoverColor",
-        "value": "$textColor",
-        "comment": "Text color of a warning button in hover state"
-      },
-      {
-        "property": "$warningButtonHoverBorderColor",
-        "value": "#FFB300",
-        "comment": "Border color of a warning button in hover state"
-      },
-      {
-        "property": "$warningButtonActiveBg",
-        "value": "#FFA000",
-        "comment": "Background of a warning button in pressed state"
-      },
-      {
-        "property": "$warningButtonTextActiveColor",
-        "value": "$textColor",
-        "comment": "Text color of a warning button in pressed state"
-      },
-      {
-        "property": "$warningButtonActiveBorderColor",
-        "value": "#FFA000",
-        "comment": "Border color of a warning button in pressed state"
-      },
-      {
-        "property": "$warningButtonFocusShadow",
-        "value": "0 0 0 0.2rem lighten($warningButtonBg, 35%)",
-        "comment": "Box shadow of a warning button in focused state"
-      },
-      {
-        "property": "$helpButtonBg",
-        "value": "#9C27B0",
-        "comment": "Background of a help button"
-      },
-      {
-        "property": "$helpButtonTextColor",
-        "value": "#ffffff",
-        "comment": "Text color of a help button"
-      },
-      {
-        "property": "$helpButtonBorder",
-        "value": "1px solid #9C27B0",
-        "comment": "Border of a help button"
-      },
-      {
-        "property": "$helpButtonHoverBg",
-        "value": "#8E24AA",
-        "comment": "Background of a help help in hover state"
-      },
-      {
-        "property": "$helpButtonTextHoverColor",
-        "value": "#ffffff",
-        "comment": "Text color of a help button in hover state"
-      },
-      {
-        "property": "$helpButtonHoverBorderColor",
-        "value": "#8E24AA",
-        "comment": "Border color of a help button in hover state"
-      },
-      {
-        "property": "$helpButtonActiveBg",
-        "value": "#7B1FA2",
-        "comment": "Background of a help button in pressed state"
-      },
-      {
-        "property": "$helpButtonTextActiveColor",
-        "value": "#ffffff",
-        "comment": "Text color of a help button in pressed state"
-      },
-      {
-        "property": "$helpButtonActiveBorderColor",
-        "value": "#7B1FA2",
-        "comment": "Border color of a help button in pressed state"
-      },
-      {
-        "property": "$helpButtonFocusShadow",
-        "value": "0 0 0 0.2rem #CE93D8",
-        "comment": "Box shadow of a help button in focused state"
-      },
-      {
-        "property": "$dangerButtonBg",
-        "value": "#f44336",
-        "comment": "Background of a danger button"
-      },
-      {
-        "property": "$dangerButtonTextColor",
-        "value": "#ffffff",
-        "comment": "Text color of a danger button"
-      },
-      {
-        "property": "$dangerButtonBorder",
-        "value": "1px solid #f44336",
-        "comment": "Border of a danger button"
-      },
-      {
-        "property": "$dangerButtonHoverBg",
-        "value": "#e53935",
-        "comment": "Background of a danger button in hover state"
-      },
-      {
-        "property": "$dangerButtonTextHoverColor",
-        "value": "#ffffff",
-        "comment": "Text color of a danger button in hover state"
-      },
-      {
-        "property": "$dangerButtonHoverBorderColor",
-        "value": "#e53935",
-        "comment": "Border color of a danger button in hover state"
-      },
-      {
-        "property": "$dangerButtonActiveBg",
-        "value": "#d32f2f",
-        "comment": "Background of a danger button in pressed state"
-      },
-      {
-        "property": "$dangerButtonTextActiveColor",
-        "value": "#ffffff",
-        "comment": "Text color of a danger button in pressed state"
-      },
-      {
-        "property": "$dangerButtonActiveBorderColor",
-        "value": "#d32f2f",
-        "comment": "Border color of a danger button in pressed state"
-      },
-      {
-        "property": "$dangerButtonFocusShadow",
-        "value": "0 0 0 0.2rem lighten($dangerButtonBg, 35%)",
-        "comment": "Box shadow of a danger button in focused state"
-      },
-      {
-        "property": "$linkButtonColor",
-        "value": "$primaryDarkerColor",
-        "comment": "Text color of a link button"
-      },
-      {
-        "property": "$linkButtonHoverColor",
-        "value": "$primaryDarkerColor",
-        "comment": "Text color of a link button in hover state"
-      },
-      {
-        "property": "$linkButtonTextHoverDecoration",
-        "value": "underline",
-        "comment": "Text decoration of a link button in hover state"
-      },
-      {
-        "property": "$linkButtonFocusShadow",
-        "value": "0 0 0 0.2rem $focusOutlineColor",
-        "comment": "Box shadow of a link button in focused state"
-      },
-      {
-        "property": "$toggleButtonBg",
-        "value": "#ffffff",
-        "comment": "Background of a toggle button"
-      },
-      {
-        "property": "$toggleButtonBorder",
-        "value": "1px solid #ced4da",
-        "comment": "Border of a toggle button"
-      },
-      {
-        "property": "$toggleButtonTextColor",
-        "value": "$textColor",
-        "comment": "Text color of a toggle button"
-      },
-      {
-        "property": "$toggleButtonIconColor",
-        "value": "$textSecondaryColor",
-        "comment": "Icon color of a toggle button"
-      },
-      {
-        "property": "$toggleButtonHoverBg",
-        "value": "#e9ecef",
-        "comment": "Background of a toggle button in hover state"
-      },
-      {
-        "property": "$toggleButtonHoverBorderColor",
-        "value": "#ced4da",
-        "comment": "Border color of a toggle button in hover state"
-      },
-      {
-        "property": "$toggleButtonTextHoverColor",
-        "value": "$textColor",
-        "comment": "Text color of a toggle button in hover state"
-      },
-      {
-        "property": "$toggleButtonIconHoverColor",
-        "value": "$textSecondaryColor",
-        "comment": "Icon color of a toggle button in hover state"
-      },
-      {
-        "property": "$toggleButtonActiveBg",
-        "value": "$primaryColor",
-        "comment": "Background of a toggle button in selected state"
-      },
-      {
-        "property": "$toggleButtonActiveBorderColor",
-        "value": "$primaryColor",
-        "comment": "Border color of a toggle button in selected state"
-      },
-      {
-        "property": "$toggleButtonTextActiveColor",
-        "value": "$primaryTextColor",
-        "comment": "Text color of a toggle button in selected state"
-      },
-      {
-        "property": "$toggleButtonIconActiveColor",
-        "value": "$primaryTextColor",
-        "comment": "Icon color of a toggle button in selected state"
-      },
-      {
-        "property": "$toggleButtonActiveHoverBg",
-        "value": "$primaryDarkColor",
-        "comment": "Hover background of a toggle button in selected state"
-      },
-      {
-        "property": "$toggleButtonActiveHoverBorderColor",
-        "value": "$primaryDarkColor",
-        "comment": "Hover border color of a toggle button in selected state"
-      },
-      {
-        "property": "$toggleButtonTextActiveHoverColor",
-        "value": "$primaryTextColor",
-        "comment": "Hover text color of a toggle button in selected state"
-      },
-      {
-        "property": "$toggleButtonIconActiveHoverColor",
-        "value": "$primaryTextColor",
-        "comment": "Hover icon of a toggle button in selected state"
-      },
-      {
-        "property": "$speedDialButtonWidth",
-        "value": "4rem",
-        "comment": "Width of the speed dial button"
-      },
-      {
-        "property": "$speedDialButtonHeight",
-        "value": "4rem",
-        "comment": "Height of the speed dial button"
-      },
-      {
-        "property": "$speedDialButtonIconFontSize",
-        "value": "1.3rem",
-        "comment": "Icon size of the speed dial button"
-      },
-      {
-        "property": "$speedDialActionWidth",
-        "value": "3rem",
-        "comment": "Width of a speed dial item"
-      },
-      {
-        "property": "$speedDialActionHeight",
-        "value": "3rem",
-        "comment": "Height of a speed dial item"
-      },
-      {
-        "property": "$speedDialActionBg",
-        "value": "#ffffff",
-        "comment": "Background color of a speed dial item"
-      },
-      {
-        "property": "$speedDialActionHoverBg",
-        "value": "#F5F5F5",
-        "comment": "Background color of a speed dial item in hover state"
-      },
-      {
-        "property": "$speedDialActionTextColor",
-        "value": "#212121",
-        "comment": "Text color of a speed dial item"
-      },
-      {
-        "property": "$speedDialActionTextHoverColor",
-        "value": "#212121",
-        "comment": "Text color of a speed dial item in hover state"
-      }
-    ]
-  },
-  {
     "title": "form",
     "items": [
       {
@@ -1445,6 +895,556 @@
     ]
   },
   {
+    "title": "button",
+    "items": [
+      {
+        "property": "$buttonPadding",
+        "value": ".5rem 1rem",
+        "comment": "Padding of a button, must be defined with a shorthand for vertical and horizontal values e.g. \".5rem .5rem\""
+      },
+      {
+        "property": "$buttonIconOnlyWidth",
+        "value": "2.357rem",
+        "comment": "Width of a button having an icon with no label"
+      },
+      {
+        "property": "$buttonIconOnlyPadding",
+        "value": ".5rem 0",
+        "comment": "Padding of a button having an icon with no label"
+      },
+      {
+        "property": "$buttonBg",
+        "value": "$primaryColor",
+        "comment": "Background of a button"
+      },
+      {
+        "property": "$buttonTextColor",
+        "value": "$primaryTextColor",
+        "comment": "Text color of a button"
+      },
+      {
+        "property": "$buttonBorder",
+        "value": "1px solid $primaryColor",
+        "comment": "Border of a button"
+      },
+      {
+        "property": "$buttonHoverBg",
+        "value": "$primaryDarkColor",
+        "comment": "Background of a button in hover state"
+      },
+      {
+        "property": "$buttonTextHoverColor",
+        "value": "$primaryTextColor",
+        "comment": "Text color of a button in hover state"
+      },
+      {
+        "property": "$buttonHoverBorderColor",
+        "value": "$primaryDarkColor",
+        "comment": "Border color of a button in hover state"
+      },
+      {
+        "property": "$buttonActiveBg",
+        "value": "$primaryDarkerColor",
+        "comment": "Background of a button in pressed state"
+      },
+      {
+        "property": "$buttonTextActiveColor",
+        "value": "$primaryTextColor",
+        "comment": "Color of a button in pressed state"
+      },
+      {
+        "property": "$buttonActiveBorderColor",
+        "value": "$primaryDarkerColor",
+        "comment": "Border color of a button in pressed state"
+      },
+      {
+        "property": "$raisedButtonShadow",
+        "value": "0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12)",
+        "comment": "Shadow of a raised button"
+      },
+      {
+        "property": "$roundedButtonBorderRadius",
+        "value": "2rem",
+        "comment": "Border radius of a rounded button"
+      },
+      {
+        "property": "$textButtonHoverBgOpacity",
+        "value": ".04",
+        "comment": "Alpha level of a text button background in hover state"
+      },
+      {
+        "property": "$textButtonActiveBgOpacity",
+        "value": ".16",
+        "comment": "Alpha level of a text button background in active state"
+      },
+      {
+        "property": "$outlinedButtonBorder",
+        "value": "1px solid",
+        "comment": "Border style of a outlined button"
+      },
+      {
+        "property": "$plainButtonTextColor",
+        "value": "#6c757d",
+        "comment": "Text color of a plain text button"
+      },
+      {
+        "property": "$plainButtonHoverBgColor",
+        "value": "#e9ecef",
+        "comment": "Background color of a plain text button in hover state"
+      },
+      {
+        "property": "$plainButtonActiveBgColor",
+        "value": "#dee2e6",
+        "comment": "Background color of a plain text button in active state"
+      },
+      {
+        "property": "$secondaryButtonBg",
+        "value": "#607D8B",
+        "comment": "Background of a secondary button"
+      },
+      {
+        "property": "$secondaryButtonTextColor",
+        "value": "#ffffff",
+        "comment": "Text color of a secondary button"
+      },
+      {
+        "property": "$secondaryButtonBorder",
+        "value": "1px solid #607D8B",
+        "comment": "Border of a secondary button"
+      },
+      {
+        "property": "$secondaryButtonHoverBg",
+        "value": "#546E7A",
+        "comment": "Background of a secondary button in hover state"
+      },
+      {
+        "property": "$secondaryButtonTextHoverColor",
+        "value": "#ffffff",
+        "comment": "Text color of a secondary button in hover state"
+      },
+      {
+        "property": "$secondaryButtonHoverBorderColor",
+        "value": "#546E7A",
+        "comment": "Border color of a secondary button in hover state"
+      },
+      {
+        "property": "$secondaryButtonActiveBg",
+        "value": "#455A64",
+        "comment": "Background of a secondary button in pressed state"
+      },
+      {
+        "property": "$secondaryButtonTextActiveColor",
+        "value": "#ffffff",
+        "comment": "Text color of a secondary button in pressed state"
+      },
+      {
+        "property": "$secondaryButtonActiveBorderColor",
+        "value": "#455A64",
+        "comment": "Border color of a secondary button in pressed state"
+      },
+      {
+        "property": "$secondaryButtonFocusShadow",
+        "value": "0 0 0 0.2rem #B0BEC5",
+        "comment": "Box shadow of a secondary button in focused state"
+      },
+      {
+        "property": "$infoButtonBg",
+        "value": "#03A9F4",
+        "comment": "Background of an info button"
+      },
+      {
+        "property": "$infoButtonTextColor",
+        "value": "#ffffff",
+        "comment": "Text color of an info button"
+      },
+      {
+        "property": "$infoButtonBorder",
+        "value": "1px solid #03A9F4",
+        "comment": "Border of an info button"
+      },
+      {
+        "property": "$infoButtonHoverBg",
+        "value": "#039BE5",
+        "comment": "Background of an info button in hover state"
+      },
+      {
+        "property": "$infoButtonTextHoverColor",
+        "value": "#ffffff",
+        "comment": "Text color of an info button in hover state"
+      },
+      {
+        "property": "$infoButtonHoverBorderColor",
+        "value": "#039BE5",
+        "comment": "Border color of an info button in hover state"
+      },
+      {
+        "property": "$infoButtonActiveBg",
+        "value": "#0288D1",
+        "comment": "Background of an info button in pressed state"
+      },
+      {
+        "property": "$infoButtonTextActiveColor",
+        "value": "#ffffff",
+        "comment": "Text color of an info button in pressed state"
+      },
+      {
+        "property": "$infoButtonActiveBorderColor",
+        "value": "#0288D1",
+        "comment": "Border color of an info button in pressed state"
+      },
+      {
+        "property": "$infoButtonFocusShadow",
+        "value": "0 0 0 0.2rem lighten($infoButtonBg, 35%)",
+        "comment": "Box shadow of an info button in focused state"
+      },
+      {
+        "property": "$successButtonBg",
+        "value": "#4CAF50",
+        "comment": "Background of a success button"
+      },
+      {
+        "property": "$successButtonTextColor",
+        "value": "#ffffff",
+        "comment": "Text color of a success button"
+      },
+      {
+        "property": "$successButtonBorder",
+        "value": "1px solid #4CAF50",
+        "comment": "Border of a success button"
+      },
+      {
+        "property": "$successButtonHoverBg",
+        "value": "#43A047",
+        "comment": "Background of a success button in hover state"
+      },
+      {
+        "property": "$successButtonTextHoverColor",
+        "value": "#ffffff",
+        "comment": "Text color of a success button in hover state"
+      },
+      {
+        "property": "$successButtonHoverBorderColor",
+        "value": "#43A047",
+        "comment": "Border color of a success button in hover state"
+      },
+      {
+        "property": "$successButtonActiveBg",
+        "value": "#388E3C",
+        "comment": "Background of a success button in pressed state"
+      },
+      {
+        "property": "$successButtonTextActiveColor",
+        "value": "#ffffff",
+        "comment": "Text Color of a success button in pressed state"
+      },
+      {
+        "property": "$successButtonActiveBorderColor",
+        "value": "#388E3C",
+        "comment": "Border color of a success button in pressed state"
+      },
+      {
+        "property": "$successButtonFocusShadow",
+        "value": "0 0 0 0.2rem lighten($successButtonBg, 35%)",
+        "comment": "Box shadow of a success button in focused state"
+      },
+      {
+        "property": "$warningButtonBg",
+        "value": "#FFC107",
+        "comment": "Background of a warning button"
+      },
+      {
+        "property": "$warningButtonTextColor",
+        "value": "$textColor",
+        "comment": "Text color of a warning button"
+      },
+      {
+        "property": "$warningButtonBorder",
+        "value": "1px solid #FFC107",
+        "comment": "Border of a warning button"
+      },
+      {
+        "property": "$warningButtonHoverBg",
+        "value": "#FFB300",
+        "comment": "Background of a warning button in hover state"
+      },
+      {
+        "property": "$warningButtonTextHoverColor",
+        "value": "$textColor",
+        "comment": "Text color of a warning button in hover state"
+      },
+      {
+        "property": "$warningButtonHoverBorderColor",
+        "value": "#FFB300",
+        "comment": "Border color of a warning button in hover state"
+      },
+      {
+        "property": "$warningButtonActiveBg",
+        "value": "#FFA000",
+        "comment": "Background of a warning button in pressed state"
+      },
+      {
+        "property": "$warningButtonTextActiveColor",
+        "value": "$textColor",
+        "comment": "Text color of a warning button in pressed state"
+      },
+      {
+        "property": "$warningButtonActiveBorderColor",
+        "value": "#FFA000",
+        "comment": "Border color of a warning button in pressed state"
+      },
+      {
+        "property": "$warningButtonFocusShadow",
+        "value": "0 0 0 0.2rem lighten($warningButtonBg, 35%)",
+        "comment": "Box shadow of a warning button in focused state"
+      },
+      {
+        "property": "$helpButtonBg",
+        "value": "#9C27B0",
+        "comment": "Background of a help button"
+      },
+      {
+        "property": "$helpButtonTextColor",
+        "value": "#ffffff",
+        "comment": "Text color of a help button"
+      },
+      {
+        "property": "$helpButtonBorder",
+        "value": "1px solid #9C27B0",
+        "comment": "Border of a help button"
+      },
+      {
+        "property": "$helpButtonHoverBg",
+        "value": "#8E24AA",
+        "comment": "Background of a help help in hover state"
+      },
+      {
+        "property": "$helpButtonTextHoverColor",
+        "value": "#ffffff",
+        "comment": "Text color of a help button in hover state"
+      },
+      {
+        "property": "$helpButtonHoverBorderColor",
+        "value": "#8E24AA",
+        "comment": "Border color of a help button in hover state"
+      },
+      {
+        "property": "$helpButtonActiveBg",
+        "value": "#7B1FA2",
+        "comment": "Background of a help button in pressed state"
+      },
+      {
+        "property": "$helpButtonTextActiveColor",
+        "value": "#ffffff",
+        "comment": "Text color of a help button in pressed state"
+      },
+      {
+        "property": "$helpButtonActiveBorderColor",
+        "value": "#7B1FA2",
+        "comment": "Border color of a help button in pressed state"
+      },
+      {
+        "property": "$helpButtonFocusShadow",
+        "value": "0 0 0 0.2rem #CE93D8",
+        "comment": "Box shadow of a help button in focused state"
+      },
+      {
+        "property": "$dangerButtonBg",
+        "value": "#f44336",
+        "comment": "Background of a danger button"
+      },
+      {
+        "property": "$dangerButtonTextColor",
+        "value": "#ffffff",
+        "comment": "Text color of a danger button"
+      },
+      {
+        "property": "$dangerButtonBorder",
+        "value": "1px solid #f44336",
+        "comment": "Border of a danger button"
+      },
+      {
+        "property": "$dangerButtonHoverBg",
+        "value": "#e53935",
+        "comment": "Background of a danger button in hover state"
+      },
+      {
+        "property": "$dangerButtonTextHoverColor",
+        "value": "#ffffff",
+        "comment": "Text color of a danger button in hover state"
+      },
+      {
+        "property": "$dangerButtonHoverBorderColor",
+        "value": "#e53935",
+        "comment": "Border color of a danger button in hover state"
+      },
+      {
+        "property": "$dangerButtonActiveBg",
+        "value": "#d32f2f",
+        "comment": "Background of a danger button in pressed state"
+      },
+      {
+        "property": "$dangerButtonTextActiveColor",
+        "value": "#ffffff",
+        "comment": "Text color of a danger button in pressed state"
+      },
+      {
+        "property": "$dangerButtonActiveBorderColor",
+        "value": "#d32f2f",
+        "comment": "Border color of a danger button in pressed state"
+      },
+      {
+        "property": "$dangerButtonFocusShadow",
+        "value": "0 0 0 0.2rem lighten($dangerButtonBg, 35%)",
+        "comment": "Box shadow of a danger button in focused state"
+      },
+      {
+        "property": "$linkButtonColor",
+        "value": "$primaryDarkerColor",
+        "comment": "Text color of a link button"
+      },
+      {
+        "property": "$linkButtonHoverColor",
+        "value": "$primaryDarkerColor",
+        "comment": "Text color of a link button in hover state"
+      },
+      {
+        "property": "$linkButtonTextHoverDecoration",
+        "value": "underline",
+        "comment": "Text decoration of a link button in hover state"
+      },
+      {
+        "property": "$linkButtonFocusShadow",
+        "value": "0 0 0 0.2rem $focusOutlineColor",
+        "comment": "Box shadow of a link button in focused state"
+      },
+      {
+        "property": "$toggleButtonBg",
+        "value": "#ffffff",
+        "comment": "Background of a toggle button"
+      },
+      {
+        "property": "$toggleButtonBorder",
+        "value": "1px solid #ced4da",
+        "comment": "Border of a toggle button"
+      },
+      {
+        "property": "$toggleButtonTextColor",
+        "value": "$textColor",
+        "comment": "Text color of a toggle button"
+      },
+      {
+        "property": "$toggleButtonIconColor",
+        "value": "$textSecondaryColor",
+        "comment": "Icon color of a toggle button"
+      },
+      {
+        "property": "$toggleButtonHoverBg",
+        "value": "#e9ecef",
+        "comment": "Background of a toggle button in hover state"
+      },
+      {
+        "property": "$toggleButtonHoverBorderColor",
+        "value": "#ced4da",
+        "comment": "Border color of a toggle button in hover state"
+      },
+      {
+        "property": "$toggleButtonTextHoverColor",
+        "value": "$textColor",
+        "comment": "Text color of a toggle button in hover state"
+      },
+      {
+        "property": "$toggleButtonIconHoverColor",
+        "value": "$textSecondaryColor",
+        "comment": "Icon color of a toggle button in hover state"
+      },
+      {
+        "property": "$toggleButtonActiveBg",
+        "value": "$primaryColor",
+        "comment": "Background of a toggle button in selected state"
+      },
+      {
+        "property": "$toggleButtonActiveBorderColor",
+        "value": "$primaryColor",
+        "comment": "Border color of a toggle button in selected state"
+      },
+      {
+        "property": "$toggleButtonTextActiveColor",
+        "value": "$primaryTextColor",
+        "comment": "Text color of a toggle button in selected state"
+      },
+      {
+        "property": "$toggleButtonIconActiveColor",
+        "value": "$primaryTextColor",
+        "comment": "Icon color of a toggle button in selected state"
+      },
+      {
+        "property": "$toggleButtonActiveHoverBg",
+        "value": "$primaryDarkColor",
+        "comment": "Hover background of a toggle button in selected state"
+      },
+      {
+        "property": "$toggleButtonActiveHoverBorderColor",
+        "value": "$primaryDarkColor",
+        "comment": "Hover border color of a toggle button in selected state"
+      },
+      {
+        "property": "$toggleButtonTextActiveHoverColor",
+        "value": "$primaryTextColor",
+        "comment": "Hover text color of a toggle button in selected state"
+      },
+      {
+        "property": "$toggleButtonIconActiveHoverColor",
+        "value": "$primaryTextColor",
+        "comment": "Hover icon of a toggle button in selected state"
+      },
+      {
+        "property": "$speedDialButtonWidth",
+        "value": "4rem",
+        "comment": "Width of the speed dial button"
+      },
+      {
+        "property": "$speedDialButtonHeight",
+        "value": "4rem",
+        "comment": "Height of the speed dial button"
+      },
+      {
+        "property": "$speedDialButtonIconFontSize",
+        "value": "1.3rem",
+        "comment": "Icon size of the speed dial button"
+      },
+      {
+        "property": "$speedDialActionWidth",
+        "value": "3rem",
+        "comment": "Width of a speed dial item"
+      },
+      {
+        "property": "$speedDialActionHeight",
+        "value": "3rem",
+        "comment": "Height of a speed dial item"
+      },
+      {
+        "property": "$speedDialActionBg",
+        "value": "#ffffff",
+        "comment": "Background color of a speed dial item"
+      },
+      {
+        "property": "$speedDialActionHoverBg",
+        "value": "#F5F5F5",
+        "comment": "Background color of a speed dial item in hover state"
+      },
+      {
+        "property": "$speedDialActionTextColor",
+        "value": "#212121",
+        "comment": "Text color of a speed dial item"
+      },
+      {
+        "property": "$speedDialActionTextHoverColor",
+        "value": "#212121",
+        "comment": "Text color of a speed dial item in hover state"
+      }
+    ]
+  },
+  {
     "title": "data",
     "items": [
       {
@@ -1880,297 +1880,507 @@
     ]
   },
   {
-    "title": "media",
+    "title": "panel",
     "items": [
       {
-        "property": "$carouselIndicatorsPadding",
-        "value": "1rem",
-        "comment": "Padding of a carousel indicators container"
-      },
-      {
-        "property": "$carouselIndicatorBg",
-        "value": "#e9ecef",
-        "comment": "Padding of a carousel indicator"
-      },
-      {
-        "property": "$carouselIndicatorHoverBg",
+        "property": "$panelHeaderBorderColor",
         "value": "#dee2e6",
-        "comment": "Padding of a carousel indicator in hover state"
+        "comment": "Border color of a panel header"
       },
       {
-        "property": "$carouselIndicatorBorderRadius",
+        "property": "$panelHeaderBorder",
+        "value": "1px solid #dee2e6",
+        "comment": "Border of a panel header"
+      },
+      {
+        "property": "$panelHeaderBg",
+        "value": "#f8f9fa",
+        "comment": "Background of a panel header"
+      },
+      {
+        "property": "$panelHeaderTextColor",
+        "value": "$textColor",
+        "comment": "Text color of a panel header"
+      },
+      {
+        "property": "$panelHeaderFontWeight",
+        "value": "600",
+        "comment": "Font weight of a panel header"
+      },
+      {
+        "property": "$panelHeaderPadding",
+        "value": "1rem",
+        "comment": "Padding of a panel header"
+      },
+      {
+        "property": "$panelToggleableHeaderPadding",
+        "value": ".5rem 1rem",
+        "comment": "Font weight of a toggleable panel header"
+      },
+      {
+        "property": "$panelHeaderHoverBg",
+        "value": "#e9ecef",
+        "comment": "Background of a panel header in hover state e.g. toggleable state"
+      },
+      {
+        "property": "$panelHeaderHoverBorderColor",
+        "value": "#dee2e6",
+        "comment": "Border color of a panel header in hover state e.g. toggleable state"
+      },
+      {
+        "property": "$panelHeaderTextHoverColor",
+        "value": "#495057",
+        "comment": "Text color of a panel header in hover state e.g. toggleable state"
+      },
+      {
+        "property": "$panelContentBorderColor",
+        "value": "#dee2e6",
+        "comment": "Border color for the content section of a panel"
+      },
+      {
+        "property": "$panelContentBorder",
+        "value": "1px solid #dee2e6",
+        "comment": "Border for the content section of a panel"
+      },
+      {
+        "property": "$panelContentBg",
+        "value": "#ffffff",
+        "comment": "Background for the content section of a panel"
+      },
+      {
+        "property": "$panelContentEvenRowBg",
+        "value": "#e9ecef",
+        "comment": "Background for the striped row."
+      },
+      {
+        "property": "$panelContentTextColor",
+        "value": "$textColor",
+        "comment": "Text color for the content section of a panel"
+      },
+      {
+        "property": "$panelContentPadding",
+        "value": "1rem",
+        "comment": "Padding for the content section of a panel"
+      },
+      {
+        "property": "$panelFooterBorder",
+        "value": "1px solid #dee2e6",
+        "comment": "Border for the footer section of a panel"
+      },
+      {
+        "property": "$panelFooterBg",
+        "value": "#ffffff",
+        "comment": "Background for the footer section of a panel"
+      },
+      {
+        "property": "$panelFooterTextColor",
+        "value": "$textColor",
+        "comment": "Text color for the footer section of a panel"
+      },
+      {
+        "property": "$panelFooterPadding",
+        "value": "0.5rem 1rem",
+        "comment": "Padding for the footer section of a panel"
+      },
+      {
+        "property": "$accordionSpacing",
         "value": "0",
-        "comment": "Border radius of a carousel indicator"
+        "comment": "Spacing between to accordion panels"
       },
       {
-        "property": "$carouselIndicatorWidth",
-        "value": "2rem",
-        "comment": "Width of a carousel indicator"
+        "property": "$accordionHeaderBorder",
+        "value": "$panelHeaderBorder",
+        "comment": "Border of an accordion panel header"
       },
       {
-        "property": "$carouselIndicatorHeight",
-        "value": ".5rem",
-        "comment": "Height of a carousel indicator"
+        "property": "$accordionHeaderBg",
+        "value": "$panelHeaderBg",
+        "comment": "Background of an accordion panel header"
       },
       {
-        "property": "$galleriaMaskBg",
-        "value": "rgba(0,0,0,0.9)",
-        "comment": "Background of a galleria modal"
+        "property": "$accordionHeaderTextColor",
+        "value": "$panelHeaderTextColor",
+        "comment": "Text color of an accordion panel header"
       },
       {
-        "property": "$galleriaCloseIconMargin",
-        "value": ".5rem",
-        "comment": "Margin of a galleria close icon"
+        "property": "$accordionHeaderFontWeight",
+        "value": "$panelHeaderFontWeight",
+        "comment": "Font weight of an accordion panel header"
       },
       {
-        "property": "$galleriaCloseIconFontSize",
-        "value": "2rem",
-        "comment": "Font size of a galleria close icon"
+        "property": "$accordionHeaderPadding",
+        "value": "$panelHeaderPadding",
+        "comment": "Padding of an accordion panel header"
       },
       {
-        "property": "$galleriaCloseIconBg",
-        "value": "transparent",
-        "comment": "Background of a galleria close icon"
-      },
-      {
-        "property": "$galleriaCloseIconColor",
-        "value": "#ebedef",
-        "comment": "Color of a galleria close icon"
-      },
-      {
-        "property": "$galleriaCloseIconHoverBg",
-        "value": "rgba(255,255,255,0.1)",
-        "comment": "Background of a galleria close icon in hover state"
-      },
-      {
-        "property": "$galleriaCloseIconHoverColor",
-        "value": "#ebedef",
-        "comment": "Color of a galleria close icon in hover state"
-      },
-      {
-        "property": "$galleriaCloseIconWidth",
-        "value": "4rem",
-        "comment": "Width of a galleria close icon"
-      },
-      {
-        "property": "$galleriaCloseIconHeight",
-        "value": "4rem",
-        "comment": "Height of a galleria close icon"
-      },
-      {
-        "property": "$galleriaCloseIconBorderRadius",
-        "value": "50%",
-        "comment": "Border radius of a galleria close icon"
-      },
-      {
-        "property": "$galleriaItemNavigatorBg",
-        "value": "rgba(0,0,0,.2)",
-        "comment": "Background of a galleria navigator item"
-      },
-      {
-        "property": "$galleriaItemNavigatorColor",
-        "value": "#aeb6bf",
-        "comment": "Color of a galleria navigator item"
-      },
-      {
-        "property": "$galleriaItemNavigatorMargin",
-        "value": ".5rem 0",
-        "comment": "Margin of a galleria navigator item"
-      },
-      {
-        "property": "$galleriaItemNavigatorFontSize",
-        "value": "2rem",
-        "comment": "Font size of a galleria navigator item"
-      },
-      {
-        "property": "$galleriaItemNavigatorHoverBg",
-        "value": "rgba(0,0,0,.3)",
-        "comment": "Background of a galleria navigator item in hover state"
-      },
-      {
-        "property": "$galleriaItemNavigatorHoverColor",
-        "value": "#ebedef",
-        "comment": "Color of a galleria navigator item in hover state"
-      },
-      {
-        "property": "$galleriaItemNavigatorWidth",
-        "value": "4rem",
-        "comment": "Width of a galleria navigator item"
-      },
-      {
-        "property": "$galleriaItemNavigatorHeight",
-        "value": "4rem",
-        "comment": "Height of a galleria navigator item"
-      },
-      {
-        "property": "$galleriaItemNavigatorBorderRadius",
-        "value": "$borderRadius",
-        "comment": "Border radius of a galleria navigator item"
-      },
-      {
-        "property": "$galleriaCaptionBg",
-        "value": "rgba(0,0,0,.5)",
-        "comment": "Background of a galleria caption"
-      },
-      {
-        "property": "$galleriaCaptionTextColor",
-        "value": "#ebedef",
-        "comment": "Color of a galleria caption"
-      },
-      {
-        "property": "$galleriaCaptionPadding",
-        "value": "1rem",
-        "comment": "Padding of a galleria caption"
-      },
-      {
-        "property": "$galleriaIndicatorsPadding",
-        "value": "1rem",
-        "comment": "Padding of a galleria indicators container"
-      },
-      {
-        "property": "$galleriaIndicatorBg",
+        "property": "$accordionHeaderHoverBg",
         "value": "#e9ecef",
-        "comment": "Background of a galleria indicator"
+        "comment": "Background of an accordion panel header in hover state"
       },
       {
-        "property": "$galleriaIndicatorHoverBg",
+        "property": "$accordionHeaderHoverBorderColor",
+        "value": "$panelHeaderBorder",
+        "comment": "Border of an accordion panel header in hover state"
+      },
+      {
+        "property": "$accordionHeaderTextHoverColor",
+        "value": "$textColor",
+        "comment": "Text color of an accordion panel header in hover state"
+      },
+      {
+        "property": "$accordionHeaderActiveBg",
+        "value": "$panelHeaderBg",
+        "comment": "Background of an accordion panel header in expanded state"
+      },
+      {
+        "property": "$accordionHeaderActiveBorderColor",
         "value": "#dee2e6",
-        "comment": "Background of a galleria indicator in hover state"
+        "comment": "Border of an accordion panel header in expanded state"
       },
       {
-        "property": "$galleriaIndicatorBorderRadius",
-        "value": "50%",
-        "comment": "Border radius of a galleria indicator"
+        "property": "$accordionHeaderTextActiveColor",
+        "value": "$textColor",
+        "comment": "Text color of an accordion panel header in expanded state"
       },
       {
-        "property": "$galleriaIndicatorWidth",
+        "property": "$accordionHeaderActiveHoverBg",
+        "value": "#e9ecef",
+        "comment": "Hover background of an accordion panel header in expanded state"
+      },
+      {
+        "property": "$accordionHeaderActiveHoverBorderColor",
+        "value": "#dee2e6",
+        "comment": "Hover border of an accordion panel header in expanded state"
+      },
+      {
+        "property": "$accordionHeaderTextActiveHoverColor",
+        "value": "$textColor",
+        "comment": "Text color of an accordion panel header in expanded state"
+      },
+      {
+        "property": "$accordionContentBorder",
+        "value": "$panelContentBorder",
+        "comment": "Border for a content section of an accordion panel"
+      },
+      {
+        "property": "$accordionContentBg",
+        "value": "$panelContentBg",
+        "comment": "Background for a content section of an accordion panel"
+      },
+      {
+        "property": "$accordionContentTextColor",
+        "value": "$panelContentTextColor",
+        "comment": "Text color for a content section of an accordion panel"
+      },
+      {
+        "property": "$accordionContentPadding",
+        "value": "$panelContentPadding",
+        "comment": "Padding for a content section of an accordion panel"
+      },
+      {
+        "property": "$tabviewNavBorder",
+        "value": "1px solid #dee2e6",
+        "comment": "Border for a parent element containing all the headers of a tabview"
+      },
+      {
+        "property": "$tabviewNavBorderWidth",
+        "value": "0 0 2px 0",
+        "comment": "Border width for a parent element containing all the headers of a tabview"
+      },
+      {
+        "property": "$tabviewNavBg",
+        "value": "#ffffff",
+        "comment": "Background for a parent element containing all the headers of a tabview"
+      },
+      {
+        "property": "$tabviewHeaderSpacing",
+        "value": "0",
+        "comment": "Spacing between tabview headers"
+      },
+      {
+        "property": "$tabviewHeaderBorder",
+        "value": "solid #dee2e6",
+        "comment": "Border of a tabview header"
+      },
+      {
+        "property": "$tabviewHeaderBorderWidth",
+        "value": "0 0 2px 0",
+        "comment": "Border width of a tabview header"
+      },
+      {
+        "property": "$tabviewHeaderBorderColor",
+        "value": "transparent transparent #dee2e6 transparent",
+        "comment": "Border color of a tabview header"
+      },
+      {
+        "property": "$tabviewHeaderBg",
+        "value": "#ffffff",
+        "comment": "Background of a tabview header"
+      },
+      {
+        "property": "$tabviewHeaderTextColor",
+        "value": "$textSecondaryColor",
+        "comment": "Text color of a tabview header"
+      },
+      {
+        "property": "$tabviewHeaderFontWeight",
+        "value": "$panelHeaderFontWeight",
+        "comment": "Font weight of a tabview header"
+      },
+      {
+        "property": "$tabviewHeaderPadding",
+        "value": "$panelHeaderPadding",
+        "comment": "Padding of a tabview header"
+      },
+      {
+        "property": "$tabviewHeaderMargin",
+        "value": "0 0 -2px 0",
+        "comment": "Margin of a tabview header"
+      },
+      {
+        "property": "$tabviewHeaderHoverBg",
+        "value": "#ffffff",
+        "comment": "Background of a tabview header in hover state"
+      },
+      {
+        "property": "$tabviewHeaderHoverBorderColor",
+        "value": "#9ba2aa",
+        "comment": "Border of a tabview header in hover state"
+      },
+      {
+        "property": "$tabviewHeaderTextHoverColor",
+        "value": "$textSecondaryColor",
+        "comment": "Text color of a tabview header in hover state"
+      },
+      {
+        "property": "$tabviewHeaderActiveBg",
+        "value": "#ffffff",
+        "comment": "Background of a tabview header in selected state"
+      },
+      {
+        "property": "$tabviewHeaderActiveBorderColor",
+        "value": "$primaryColor",
+        "comment": "Border of a tabview header in selected state"
+      },
+      {
+        "property": "$tabviewHeaderTextActiveColor",
+        "value": "$primaryColor",
+        "comment": "Text color of a tabview header in selected state"
+      },
+      {
+        "property": "$tabviewContentBorder",
+        "value": "0 none",
+        "comment": "Border for content section of a tabview tab"
+      },
+      {
+        "property": "$tabviewContentBg",
+        "value": "$panelContentBg",
+        "comment": "Background for content section of a tabview tab"
+      },
+      {
+        "property": "$tabviewContentTextColor",
+        "value": "$panelContentTextColor",
+        "comment": "Text color for a content section of a tabview tab"
+      },
+      {
+        "property": "$tabviewContentPadding",
+        "value": "$panelContentPadding",
+        "comment": "Padding for a content section of a tabview tab"
+      },
+      {
+        "property": "$panelHeaderHoverBg",
+        "value": "#e9ecef",
+        "comment": "Background of a fieldset header in hover state"
+      },
+      {
+        "property": "$panelHeaderHoverBorderColor",
+        "value": "#dee2e6",
+        "comment": "Border of a fieldset header in hover state"
+      },
+      {
+        "property": "$panelHeaderTextHoverColor",
+        "value": "$textColor",
+        "comment": "Text color of a fieldset header in hover state"
+      },
+      {
+        "property": "$scrollPanelTrackBorder",
+        "value": "0 none",
+        "comment": "Border for a track bar of a scroll panel"
+      },
+      {
+        "property": "$scrollPanelTrackBg",
+        "value": "#f8f9fa",
+        "comment": "Background for a track bar of a scroll panel"
+      },
+      {
+        "property": "$cardBodyPadding",
         "value": "1rem",
-        "comment": "Width of a galleria indicator"
+        "comment": "Padding of a card body"
       },
       {
-        "property": "$galleriaIndicatorHeight",
-        "value": "1rem",
-        "comment": "Height of a galleria indicator"
+        "property": "$cardTitleFontSize",
+        "value": "1.5rem",
+        "comment": "Font size of a card title"
       },
       {
-        "property": "$galleriaIndicatorsBgOnItem",
-        "value": "rgba(0,0,0,.5)",
-        "comment": "Background of a galleria indicator container when placed inside the viewport"
+        "property": "$cardTitleFontWeight",
+        "value": "700",
+        "comment": "Font weight of a card title"
       },
       {
-        "property": "$galleriaIndicatorBgOnItem",
-        "value": "rgba(255,255,255,.4)",
-        "comment": "Background of a galleria indicator when placed inside the viewport"
+        "property": "$cardSubTitleFontWeight",
+        "value": "700",
+        "comment": "Font size of a card subtitle"
       },
       {
-        "property": "$galleriaIndicatorHoverBgOnItem",
-        "value": "rgba(255,255,255,.6)",
-        "comment": "Background of a galleria indicator in hover state when placed inside the viewport"
+        "property": "$cardSubTitleColor",
+        "value": "$textSecondaryColor",
+        "comment": "Text color of a card subtitle"
       },
       {
-        "property": "$galleriaThumbnailContainerBg",
-        "value": "rgba(0,0,0,.9)",
-        "comment": "Background of a galleria thumbnail container"
+        "property": "$cardContentPadding",
+        "value": "1rem 0",
+        "comment": "Padding of a card content"
       },
       {
-        "property": "$galleriaThumbnailContainerPadding",
-        "value": "1rem .25rem",
-        "comment": "Padding of a galleria thumbnail container"
+        "property": "$cardFooterPadding",
+        "value": "1rem 0 0 0",
+        "comment": "Padding of a card footer"
       },
       {
-        "property": "$galleriaThumbnailNavigatorBg",
-        "value": "transparent",
-        "comment": "Background of a galleria thumbnail navigator"
+        "property": "$cardShadow",
+        "value": "0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0,0,0,.12)",
+        "comment": "Box shadow of a card"
       },
       {
-        "property": "$galleriaThumbnailNavigatorColor",
-        "value": "#aeb6bf",
-        "comment": "Color of a galleria thumbnail navigator"
+        "property": "$dividerHorizontalMargin",
+        "value": "1rem 0",
+        "comment": "Margin of divider in horizontal layout"
       },
       {
-        "property": "$galleriaThumbnailNavigatorHoverBg",
-        "value": "rgba(255,255,255,0.1)",
-        "comment": "Background of a galleria thumbnail navigator in hover state"
+        "property": "$dividerHorizontalPadding",
+        "value": "0 1rem",
+        "comment": "Padding of divider in horizontal layout"
       },
       {
-        "property": "$galleriaThumbnailNavigatorHoverColor",
-        "value": "#aeb6bf",
-        "comment": "Color of a galleria thumbnail navigator in hover state"
+        "property": "$dividerVerticalMargin",
+        "value": "0 1rem",
+        "comment": "Margin of divider in vertical layout"
       },
       {
-        "property": "$galleriaThumbnailNavigatorBorderRadius",
-        "value": "50%",
-        "comment": "Border radius of a galleria thumbnail navigator in hover state"
+        "property": "$dividerVerticalPadding",
+        "value": "1rem 0",
+        "comment": "Padding of divider in vertical layout"
       },
       {
-        "property": "$galleriaThumbnailNavigatorWidth",
-        "value": "2rem",
-        "comment": "Width of a galleria thumbnail navigator in hover state"
+        "property": "$dividerSize",
+        "value": "1px",
+        "comment": "Border width of the divider"
       },
       {
-        "property": "$galleriaThumbnailNavigatorHeight",
-        "value": "2rem",
-        "comment": "Height of a galleria thumbnail navigator in hover state"
+        "property": "$dividerColor",
+        "value": "#dee2e6",
+        "comment": "Color of the divider border"
       },
       {
-        "property": "$imageMaskBg",
-        "value": "rgba(0,0,0,0.9) !default",
-        "comment": "Background of an image preview modal"
+        "property": "$splitterGutterBg",
+        "value": "#f8f9fa",
+        "comment": "Background of the splitter gutter"
       },
       {
-        "property": "$imagePreviewToolbarPadding",
-        "value": "1rem !default",
-        "comment": "Padding of image preview toolbar"
+        "property": "$splitterGutterHandleBg",
+        "value": "#dee2e6",
+        "comment": "Background of the splitter gutter handle"
+      }
+    ]
+  },
+  {
+    "title": "overlay",
+    "items": [
+      {
+        "property": "$overlayContentBorder",
+        "value": "0 none",
+        "comment": "Border of an overlay container element such as dialog or overlaypanel"
       },
       {
-        "property": "$imagePreviewIndicatorColor",
-        "value": "#f8f9fa !default",
-        "comment": "Text color of the image preview indicator"
+        "property": "$overlayContentBg",
+        "value": "$panelContentBg",
+        "comment": "Background of an overlay container element such as dialog or overlaypanel"
       },
       {
-        "property": "$imagePreviewIndicatorBg",
-        "value": "rgba(0,0,0,0.5) !default",
-        "comment": "Background of the image preview indicator"
+        "property": "$overlayContainerShadow",
+        "value": "0 0 14px 0 rgba(0, 0, 0, 0.1)",
+        "comment": "Box shadow of an overlay container element such as dialog or overlaypanel"
       },
       {
-        "property": "$imagePreviewActionIconBg",
-        "value": "transparent !default",
-        "comment": "Background of an image action item"
+        "property": "$dialogHeaderBg",
+        "value": "#ffffff",
+        "comment": "Background of a dialog header"
       },
       {
-        "property": "$imagePreviewActionIconColor",
-        "value": "#f8f9fa !default",
-        "comment": "Text color of an image action item"
+        "property": "$dialogHeaderBorder",
+        "value": "1px solid #dee2e6",
+        "comment": "Border of a dialog header"
       },
       {
-        "property": "$imagePreviewActionIconHoverBg",
-        "value": "rgba(255,255,255,0.1) !default",
-        "comment": "Background of an image action item in hover state"
+        "property": "$dialogHeaderTextColor",
+        "value": "$panelHeaderTextColor",
+        "comment": "Text color of a dialog header"
       },
       {
-        "property": "$imagePreviewActionIconHoverColor",
-        "value": "#f8f9fa !default",
-        "comment": "Tect color of an image action item in hover state"
+        "property": "$dialogHeaderFontWeight",
+        "value": "600",
+        "comment": "Font weight of a dialog header"
       },
       {
-        "property": "$imagePreviewActionIconWidth",
-        "value": "3rem !default",
-        "comment": "Width of an image action item"
+        "property": "$dialogHeaderFontSize",
+        "value": "1.25rem",
+        "comment": "Font size of a dialog header"
       },
       {
-        "property": "$imagePreviewActionIconHeight",
-        "value": "3rem !default",
-        "comment": "Height of an image action item"
+        "property": "$dialogHeaderPadding",
+        "value": "1.5rem",
+        "comment": "Padding of a dialog header"
       },
       {
-        "property": "$imagePreviewActionIconFontSize",
-        "value": "1.5rem !default",
-        "comment": "Font size of an image action item icon"
+        "property": "$dialogContentPadding",
+        "value": "0 1.5rem",
+        "comment": "Padding of a dialog content"
       },
       {
-        "property": "$imagePreviewActionIconBorderRadius",
-        "value": "50% !default",
-        "comment": "Border radius of an image action item"
+        "property": "$dialogFooterBorder",
+        "value": "1px solid #dee2e6",
+        "comment": "Border of a dialog footer"
+      },
+      {
+        "property": "$dialogFooterPadding",
+        "value": "1.5rem",
+        "comment": "Padding of a dialog footer"
+      },
+      {
+        "property": "$confirmPopupContentPadding",
+        "value": "$panelContentPadding",
+        "comment": "Padding of a confirmpopup content"
+      },
+      {
+        "property": "$confirmPopupFooterPadding",
+        "value": "0 1rem 1rem 1rem",
+        "comment": "Padding of a confirmpopup footer"
+      },
+      {
+        "property": "$tooltipBg",
+        "value": "$textColor",
+        "comment": "Background of a tooltip"
+      },
+      {
+        "property": "$tooltipTextColor",
+        "value": "#ffffff",
+        "comment": "Text color of a tooltip"
+      },
+      {
+        "property": "$tooltipPadding",
+        "value": "$inputPadding",
+        "comment": "Padding of a tooltip"
       }
     ]
   },
@@ -2725,507 +2935,297 @@
     ]
   },
   {
-    "title": "panel",
+    "title": "media",
     "items": [
       {
-        "property": "$panelHeaderBorderColor",
-        "value": "#dee2e6",
-        "comment": "Border color of a panel header"
-      },
-      {
-        "property": "$panelHeaderBorder",
-        "value": "1px solid #dee2e6",
-        "comment": "Border of a panel header"
-      },
-      {
-        "property": "$panelHeaderBg",
-        "value": "#f8f9fa",
-        "comment": "Background of a panel header"
-      },
-      {
-        "property": "$panelHeaderTextColor",
-        "value": "$textColor",
-        "comment": "Text color of a panel header"
-      },
-      {
-        "property": "$panelHeaderFontWeight",
-        "value": "600",
-        "comment": "Font weight of a panel header"
-      },
-      {
-        "property": "$panelHeaderPadding",
+        "property": "$carouselIndicatorsPadding",
         "value": "1rem",
-        "comment": "Padding of a panel header"
+        "comment": "Padding of a carousel indicators container"
       },
       {
-        "property": "$panelToggleableHeaderPadding",
-        "value": ".5rem 1rem",
-        "comment": "Font weight of a toggleable panel header"
-      },
-      {
-        "property": "$panelHeaderHoverBg",
+        "property": "$carouselIndicatorBg",
         "value": "#e9ecef",
-        "comment": "Background of a panel header in hover state e.g. toggleable state"
+        "comment": "Padding of a carousel indicator"
       },
       {
-        "property": "$panelHeaderHoverBorderColor",
+        "property": "$carouselIndicatorHoverBg",
         "value": "#dee2e6",
-        "comment": "Border color of a panel header in hover state e.g. toggleable state"
+        "comment": "Padding of a carousel indicator in hover state"
       },
       {
-        "property": "$panelHeaderTextHoverColor",
-        "value": "#495057",
-        "comment": "Text color of a panel header in hover state e.g. toggleable state"
-      },
-      {
-        "property": "$panelContentBorderColor",
-        "value": "#dee2e6",
-        "comment": "Border color for the content section of a panel"
-      },
-      {
-        "property": "$panelContentBorder",
-        "value": "1px solid #dee2e6",
-        "comment": "Border for the content section of a panel"
-      },
-      {
-        "property": "$panelContentBg",
-        "value": "#ffffff",
-        "comment": "Background for the content section of a panel"
-      },
-      {
-        "property": "$panelContentEvenRowBg",
-        "value": "#e9ecef",
-        "comment": "Background for the striped row."
-      },
-      {
-        "property": "$panelContentTextColor",
-        "value": "$textColor",
-        "comment": "Text color for the content section of a panel"
-      },
-      {
-        "property": "$panelContentPadding",
-        "value": "1rem",
-        "comment": "Padding for the content section of a panel"
-      },
-      {
-        "property": "$panelFooterBorder",
-        "value": "1px solid #dee2e6",
-        "comment": "Border for the footer section of a panel"
-      },
-      {
-        "property": "$panelFooterBg",
-        "value": "#ffffff",
-        "comment": "Background for the footer section of a panel"
-      },
-      {
-        "property": "$panelFooterTextColor",
-        "value": "$textColor",
-        "comment": "Text color for the footer section of a panel"
-      },
-      {
-        "property": "$panelFooterPadding",
-        "value": "0.5rem 1rem",
-        "comment": "Padding for the footer section of a panel"
-      },
-      {
-        "property": "$accordionSpacing",
+        "property": "$carouselIndicatorBorderRadius",
         "value": "0",
-        "comment": "Spacing between to accordion panels"
+        "comment": "Border radius of a carousel indicator"
       },
       {
-        "property": "$accordionHeaderBorder",
-        "value": "$panelHeaderBorder",
-        "comment": "Border of an accordion panel header"
+        "property": "$carouselIndicatorWidth",
+        "value": "2rem",
+        "comment": "Width of a carousel indicator"
       },
       {
-        "property": "$accordionHeaderBg",
-        "value": "$panelHeaderBg",
-        "comment": "Background of an accordion panel header"
+        "property": "$carouselIndicatorHeight",
+        "value": ".5rem",
+        "comment": "Height of a carousel indicator"
       },
       {
-        "property": "$accordionHeaderTextColor",
-        "value": "$panelHeaderTextColor",
-        "comment": "Text color of an accordion panel header"
+        "property": "$galleriaMaskBg",
+        "value": "rgba(0,0,0,0.9)",
+        "comment": "Background of a galleria modal"
       },
       {
-        "property": "$accordionHeaderFontWeight",
-        "value": "$panelHeaderFontWeight",
-        "comment": "Font weight of an accordion panel header"
+        "property": "$galleriaCloseIconMargin",
+        "value": ".5rem",
+        "comment": "Margin of a galleria close icon"
       },
       {
-        "property": "$accordionHeaderPadding",
-        "value": "$panelHeaderPadding",
-        "comment": "Padding of an accordion panel header"
+        "property": "$galleriaCloseIconFontSize",
+        "value": "2rem",
+        "comment": "Font size of a galleria close icon"
       },
       {
-        "property": "$accordionHeaderHoverBg",
-        "value": "#e9ecef",
-        "comment": "Background of an accordion panel header in hover state"
+        "property": "$galleriaCloseIconBg",
+        "value": "transparent",
+        "comment": "Background of a galleria close icon"
       },
       {
-        "property": "$accordionHeaderHoverBorderColor",
-        "value": "$panelHeaderBorder",
-        "comment": "Border of an accordion panel header in hover state"
+        "property": "$galleriaCloseIconColor",
+        "value": "#ebedef",
+        "comment": "Color of a galleria close icon"
       },
       {
-        "property": "$accordionHeaderTextHoverColor",
-        "value": "$textColor",
-        "comment": "Text color of an accordion panel header in hover state"
+        "property": "$galleriaCloseIconHoverBg",
+        "value": "rgba(255,255,255,0.1)",
+        "comment": "Background of a galleria close icon in hover state"
       },
       {
-        "property": "$accordionHeaderActiveBg",
-        "value": "$panelHeaderBg",
-        "comment": "Background of an accordion panel header in expanded state"
+        "property": "$galleriaCloseIconHoverColor",
+        "value": "#ebedef",
+        "comment": "Color of a galleria close icon in hover state"
       },
       {
-        "property": "$accordionHeaderActiveBorderColor",
-        "value": "#dee2e6",
-        "comment": "Border of an accordion panel header in expanded state"
+        "property": "$galleriaCloseIconWidth",
+        "value": "4rem",
+        "comment": "Width of a galleria close icon"
       },
       {
-        "property": "$accordionHeaderTextActiveColor",
-        "value": "$textColor",
-        "comment": "Text color of an accordion panel header in expanded state"
+        "property": "$galleriaCloseIconHeight",
+        "value": "4rem",
+        "comment": "Height of a galleria close icon"
       },
       {
-        "property": "$accordionHeaderActiveHoverBg",
-        "value": "#e9ecef",
-        "comment": "Hover background of an accordion panel header in expanded state"
+        "property": "$galleriaCloseIconBorderRadius",
+        "value": "50%",
+        "comment": "Border radius of a galleria close icon"
       },
       {
-        "property": "$accordionHeaderActiveHoverBorderColor",
-        "value": "#dee2e6",
-        "comment": "Hover border of an accordion panel header in expanded state"
+        "property": "$galleriaItemNavigatorBg",
+        "value": "rgba(0,0,0,.2)",
+        "comment": "Background of a galleria navigator item"
       },
       {
-        "property": "$accordionHeaderTextActiveHoverColor",
-        "value": "$textColor",
-        "comment": "Text color of an accordion panel header in expanded state"
+        "property": "$galleriaItemNavigatorColor",
+        "value": "#aeb6bf",
+        "comment": "Color of a galleria navigator item"
       },
       {
-        "property": "$accordionContentBorder",
-        "value": "$panelContentBorder",
-        "comment": "Border for a content section of an accordion panel"
+        "property": "$galleriaItemNavigatorMargin",
+        "value": ".5rem 0",
+        "comment": "Margin of a galleria navigator item"
       },
       {
-        "property": "$accordionContentBg",
-        "value": "$panelContentBg",
-        "comment": "Background for a content section of an accordion panel"
+        "property": "$galleriaItemNavigatorFontSize",
+        "value": "2rem",
+        "comment": "Font size of a galleria navigator item"
       },
       {
-        "property": "$accordionContentTextColor",
-        "value": "$panelContentTextColor",
-        "comment": "Text color for a content section of an accordion panel"
+        "property": "$galleriaItemNavigatorHoverBg",
+        "value": "rgba(0,0,0,.3)",
+        "comment": "Background of a galleria navigator item in hover state"
       },
       {
-        "property": "$accordionContentPadding",
-        "value": "$panelContentPadding",
-        "comment": "Padding for a content section of an accordion panel"
+        "property": "$galleriaItemNavigatorHoverColor",
+        "value": "#ebedef",
+        "comment": "Color of a galleria navigator item in hover state"
       },
       {
-        "property": "$tabviewNavBorder",
-        "value": "1px solid #dee2e6",
-        "comment": "Border for a parent element containing all the headers of a tabview"
+        "property": "$galleriaItemNavigatorWidth",
+        "value": "4rem",
+        "comment": "Width of a galleria navigator item"
       },
       {
-        "property": "$tabviewNavBorderWidth",
-        "value": "0 0 2px 0",
-        "comment": "Border width for a parent element containing all the headers of a tabview"
+        "property": "$galleriaItemNavigatorHeight",
+        "value": "4rem",
+        "comment": "Height of a galleria navigator item"
       },
       {
-        "property": "$tabviewNavBg",
-        "value": "#ffffff",
-        "comment": "Background for a parent element containing all the headers of a tabview"
+        "property": "$galleriaItemNavigatorBorderRadius",
+        "value": "$borderRadius",
+        "comment": "Border radius of a galleria navigator item"
       },
       {
-        "property": "$tabviewHeaderSpacing",
-        "value": "0",
-        "comment": "Spacing between tabview headers"
+        "property": "$galleriaCaptionBg",
+        "value": "rgba(0,0,0,.5)",
+        "comment": "Background of a galleria caption"
       },
       {
-        "property": "$tabviewHeaderBorder",
-        "value": "solid #dee2e6",
-        "comment": "Border of a tabview header"
+        "property": "$galleriaCaptionTextColor",
+        "value": "#ebedef",
+        "comment": "Color of a galleria caption"
       },
       {
-        "property": "$tabviewHeaderBorderWidth",
-        "value": "0 0 2px 0",
-        "comment": "Border width of a tabview header"
-      },
-      {
-        "property": "$tabviewHeaderBorderColor",
-        "value": "transparent transparent #dee2e6 transparent",
-        "comment": "Border color of a tabview header"
-      },
-      {
-        "property": "$tabviewHeaderBg",
-        "value": "#ffffff",
-        "comment": "Background of a tabview header"
-      },
-      {
-        "property": "$tabviewHeaderTextColor",
-        "value": "$textSecondaryColor",
-        "comment": "Text color of a tabview header"
-      },
-      {
-        "property": "$tabviewHeaderFontWeight",
-        "value": "$panelHeaderFontWeight",
-        "comment": "Font weight of a tabview header"
-      },
-      {
-        "property": "$tabviewHeaderPadding",
-        "value": "$panelHeaderPadding",
-        "comment": "Padding of a tabview header"
-      },
-      {
-        "property": "$tabviewHeaderMargin",
-        "value": "0 0 -2px 0",
-        "comment": "Margin of a tabview header"
-      },
-      {
-        "property": "$tabviewHeaderHoverBg",
-        "value": "#ffffff",
-        "comment": "Background of a tabview header in hover state"
-      },
-      {
-        "property": "$tabviewHeaderHoverBorderColor",
-        "value": "#9ba2aa",
-        "comment": "Border of a tabview header in hover state"
-      },
-      {
-        "property": "$tabviewHeaderTextHoverColor",
-        "value": "$textSecondaryColor",
-        "comment": "Text color of a tabview header in hover state"
-      },
-      {
-        "property": "$tabviewHeaderActiveBg",
-        "value": "#ffffff",
-        "comment": "Background of a tabview header in selected state"
-      },
-      {
-        "property": "$tabviewHeaderActiveBorderColor",
-        "value": "$primaryColor",
-        "comment": "Border of a tabview header in selected state"
-      },
-      {
-        "property": "$tabviewHeaderTextActiveColor",
-        "value": "$primaryColor",
-        "comment": "Text color of a tabview header in selected state"
-      },
-      {
-        "property": "$tabviewContentBorder",
-        "value": "0 none",
-        "comment": "Border for content section of a tabview tab"
-      },
-      {
-        "property": "$tabviewContentBg",
-        "value": "$panelContentBg",
-        "comment": "Background for content section of a tabview tab"
-      },
-      {
-        "property": "$tabviewContentTextColor",
-        "value": "$panelContentTextColor",
-        "comment": "Text color for a content section of a tabview tab"
-      },
-      {
-        "property": "$tabviewContentPadding",
-        "value": "$panelContentPadding",
-        "comment": "Padding for a content section of a tabview tab"
-      },
-      {
-        "property": "$panelHeaderHoverBg",
-        "value": "#e9ecef",
-        "comment": "Background of a fieldset header in hover state"
-      },
-      {
-        "property": "$panelHeaderHoverBorderColor",
-        "value": "#dee2e6",
-        "comment": "Border of a fieldset header in hover state"
-      },
-      {
-        "property": "$panelHeaderTextHoverColor",
-        "value": "$textColor",
-        "comment": "Text color of a fieldset header in hover state"
-      },
-      {
-        "property": "$scrollPanelTrackBorder",
-        "value": "0 none",
-        "comment": "Border for a track bar of a scroll panel"
-      },
-      {
-        "property": "$scrollPanelTrackBg",
-        "value": "#f8f9fa",
-        "comment": "Background for a track bar of a scroll panel"
-      },
-      {
-        "property": "$cardBodyPadding",
+        "property": "$galleriaCaptionPadding",
         "value": "1rem",
-        "comment": "Padding of a card body"
+        "comment": "Padding of a galleria caption"
       },
       {
-        "property": "$cardTitleFontSize",
-        "value": "1.5rem",
-        "comment": "Font size of a card title"
+        "property": "$galleriaIndicatorsPadding",
+        "value": "1rem",
+        "comment": "Padding of a galleria indicators container"
       },
       {
-        "property": "$cardTitleFontWeight",
-        "value": "700",
-        "comment": "Font weight of a card title"
+        "property": "$galleriaIndicatorBg",
+        "value": "#e9ecef",
+        "comment": "Background of a galleria indicator"
       },
       {
-        "property": "$cardSubTitleFontWeight",
-        "value": "700",
-        "comment": "Font size of a card subtitle"
-      },
-      {
-        "property": "$cardSubTitleColor",
-        "value": "$textSecondaryColor",
-        "comment": "Text color of a card subtitle"
-      },
-      {
-        "property": "$cardContentPadding",
-        "value": "1rem 0",
-        "comment": "Padding of a card content"
-      },
-      {
-        "property": "$cardFooterPadding",
-        "value": "1rem 0 0 0",
-        "comment": "Padding of a card footer"
-      },
-      {
-        "property": "$cardShadow",
-        "value": "0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0,0,0,.12)",
-        "comment": "Box shadow of a card"
-      },
-      {
-        "property": "$dividerHorizontalMargin",
-        "value": "1rem 0",
-        "comment": "Margin of divider in horizontal layout"
-      },
-      {
-        "property": "$dividerHorizontalPadding",
-        "value": "0 1rem",
-        "comment": "Padding of divider in horizontal layout"
-      },
-      {
-        "property": "$dividerVerticalMargin",
-        "value": "0 1rem",
-        "comment": "Margin of divider in vertical layout"
-      },
-      {
-        "property": "$dividerVerticalPadding",
-        "value": "1rem 0",
-        "comment": "Padding of divider in vertical layout"
-      },
-      {
-        "property": "$dividerSize",
-        "value": "1px",
-        "comment": "Border width of the divider"
-      },
-      {
-        "property": "$dividerColor",
+        "property": "$galleriaIndicatorHoverBg",
         "value": "#dee2e6",
-        "comment": "Color of the divider border"
+        "comment": "Background of a galleria indicator in hover state"
       },
       {
-        "property": "$splitterGutterBg",
-        "value": "#f8f9fa",
-        "comment": "Background of the splitter gutter"
+        "property": "$galleriaIndicatorBorderRadius",
+        "value": "50%",
+        "comment": "Border radius of a galleria indicator"
       },
       {
-        "property": "$splitterGutterHandleBg",
-        "value": "#dee2e6",
-        "comment": "Background of the splitter gutter handle"
-      }
-    ]
-  },
-  {
-    "title": "overlay",
-    "items": [
-      {
-        "property": "$overlayContentBorder",
-        "value": "0 none",
-        "comment": "Border of an overlay container element such as dialog or overlaypanel"
+        "property": "$galleriaIndicatorWidth",
+        "value": "1rem",
+        "comment": "Width of a galleria indicator"
       },
       {
-        "property": "$overlayContentBg",
-        "value": "$panelContentBg",
-        "comment": "Background of an overlay container element such as dialog or overlaypanel"
+        "property": "$galleriaIndicatorHeight",
+        "value": "1rem",
+        "comment": "Height of a galleria indicator"
       },
       {
-        "property": "$overlayContainerShadow",
-        "value": "0 0 14px 0 rgba(0, 0, 0, 0.1)",
-        "comment": "Box shadow of an overlay container element such as dialog or overlaypanel"
+        "property": "$galleriaIndicatorsBgOnItem",
+        "value": "rgba(0,0,0,.5)",
+        "comment": "Background of a galleria indicator container when placed inside the viewport"
       },
       {
-        "property": "$dialogHeaderBg",
-        "value": "#ffffff",
-        "comment": "Background of a dialog header"
+        "property": "$galleriaIndicatorBgOnItem",
+        "value": "rgba(255,255,255,.4)",
+        "comment": "Background of a galleria indicator when placed inside the viewport"
       },
       {
-        "property": "$dialogHeaderBorder",
-        "value": "1px solid #dee2e6",
-        "comment": "Border of a dialog header"
+        "property": "$galleriaIndicatorHoverBgOnItem",
+        "value": "rgba(255,255,255,.6)",
+        "comment": "Background of a galleria indicator in hover state when placed inside the viewport"
       },
       {
-        "property": "$dialogHeaderTextColor",
-        "value": "$panelHeaderTextColor",
-        "comment": "Text color of a dialog header"
+        "property": "$galleriaThumbnailContainerBg",
+        "value": "rgba(0,0,0,.9)",
+        "comment": "Background of a galleria thumbnail container"
       },
       {
-        "property": "$dialogHeaderFontWeight",
-        "value": "600",
-        "comment": "Font weight of a dialog header"
+        "property": "$galleriaThumbnailContainerPadding",
+        "value": "1rem .25rem",
+        "comment": "Padding of a galleria thumbnail container"
       },
       {
-        "property": "$dialogHeaderFontSize",
-        "value": "1.25rem",
-        "comment": "Font size of a dialog header"
+        "property": "$galleriaThumbnailNavigatorBg",
+        "value": "transparent",
+        "comment": "Background of a galleria thumbnail navigator"
       },
       {
-        "property": "$dialogHeaderPadding",
-        "value": "1.5rem",
-        "comment": "Padding of a dialog header"
+        "property": "$galleriaThumbnailNavigatorColor",
+        "value": "#aeb6bf",
+        "comment": "Color of a galleria thumbnail navigator"
       },
       {
-        "property": "$dialogContentPadding",
-        "value": "0 1.5rem",
-        "comment": "Padding of a dialog content"
+        "property": "$galleriaThumbnailNavigatorHoverBg",
+        "value": "rgba(255,255,255,0.1)",
+        "comment": "Background of a galleria thumbnail navigator in hover state"
       },
       {
-        "property": "$dialogFooterBorder",
-        "value": "1px solid #dee2e6",
-        "comment": "Border of a dialog footer"
+        "property": "$galleriaThumbnailNavigatorHoverColor",
+        "value": "#aeb6bf",
+        "comment": "Color of a galleria thumbnail navigator in hover state"
       },
       {
-        "property": "$dialogFooterPadding",
-        "value": "1.5rem",
-        "comment": "Padding of a dialog footer"
+        "property": "$galleriaThumbnailNavigatorBorderRadius",
+        "value": "50%",
+        "comment": "Border radius of a galleria thumbnail navigator in hover state"
       },
       {
-        "property": "$confirmPopupContentPadding",
-        "value": "$panelContentPadding",
-        "comment": "Padding of a confirmpopup content"
+        "property": "$galleriaThumbnailNavigatorWidth",
+        "value": "2rem",
+        "comment": "Width of a galleria thumbnail navigator in hover state"
       },
       {
-        "property": "$confirmPopupFooterPadding",
-        "value": "0 1rem 1rem 1rem",
-        "comment": "Padding of a confirmpopup footer"
+        "property": "$galleriaThumbnailNavigatorHeight",
+        "value": "2rem",
+        "comment": "Height of a galleria thumbnail navigator in hover state"
       },
       {
-        "property": "$tooltipBg",
-        "value": "$textColor",
-        "comment": "Background of a tooltip"
+        "property": "$imageMaskBg",
+        "value": "rgba(0,0,0,0.9) !default",
+        "comment": "Background of an image preview modal"
       },
       {
-        "property": "$tooltipTextColor",
-        "value": "#ffffff",
-        "comment": "Text color of a tooltip"
+        "property": "$imagePreviewToolbarPadding",
+        "value": "1rem !default",
+        "comment": "Padding of image preview toolbar"
       },
       {
-        "property": "$tooltipPadding",
-        "value": "$inputPadding",
-        "comment": "Padding of a tooltip"
+        "property": "$imagePreviewIndicatorColor",
+        "value": "#f8f9fa !default",
+        "comment": "Text color of the image preview indicator"
+      },
+      {
+        "property": "$imagePreviewIndicatorBg",
+        "value": "rgba(0,0,0,0.5) !default",
+        "comment": "Background of the image preview indicator"
+      },
+      {
+        "property": "$imagePreviewActionIconBg",
+        "value": "transparent !default",
+        "comment": "Background of an image action item"
+      },
+      {
+        "property": "$imagePreviewActionIconColor",
+        "value": "#f8f9fa !default",
+        "comment": "Text color of an image action item"
+      },
+      {
+        "property": "$imagePreviewActionIconHoverBg",
+        "value": "rgba(255,255,255,0.1) !default",
+        "comment": "Background of an image action item in hover state"
+      },
+      {
+        "property": "$imagePreviewActionIconHoverColor",
+        "value": "#f8f9fa !default",
+        "comment": "Tect color of an image action item in hover state"
+      },
+      {
+        "property": "$imagePreviewActionIconWidth",
+        "value": "3rem !default",
+        "comment": "Width of an image action item"
+      },
+      {
+        "property": "$imagePreviewActionIconHeight",
+        "value": "3rem !default",
+        "comment": "Height of an image action item"
+      },
+      {
+        "property": "$imagePreviewActionIconFontSize",
+        "value": "1.5rem !default",
+        "comment": "Font size of an image action item icon"
+      },
+      {
+        "property": "$imagePreviewActionIconBorderRadius",
+        "value": "50% !default",
+        "comment": "Border radius of an image action item"
       }
     ]
   },
