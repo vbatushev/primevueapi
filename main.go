@@ -25,13 +25,18 @@ var (
 	apiVer = "3.9.0"
 )
 
-// Section - ...
+// Section — это структура с заголовком и фрагментом элементов раздела.
+// @property {string} Title - Название раздела.
+// @property {[]SectionItem} Items - Это фрагмент структур SectionItem.
 type Section struct {
 	Title string        `json:"title"`
 	Items []SectionItem `json:"items"`
 }
 
-// SectionItem - ...
+// SectionItem — это структура с тремя полями: «Свойство», «Значение» и «Комментарий».
+// @property {string} Property - Имя свойства.
+// @property {string} Value - Стоимость имущества.
+// @property {string} Comment - Комментарий к разделу.
 type SectionItem struct {
 	Property string `json:"property"`
 	Value    string `json:"value"`
@@ -61,11 +66,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	// content, err := io.ReadAll(res.Body)
-	// res.Body.Close()
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
+
 	result, sections, err := parseContent(res)
 	if err != nil {
 		log.Fatal(err)
@@ -80,6 +81,11 @@ func main() {
 	}
 }
 
+// Функция принимает ответ на запрос к веб-сайту MDN, анализирует HTML и возвращает строку CSS и фрагмент
+// структур.
+// @param resp () - Ответ на http-запрос
+//
+// @author Vitaly Batushev
 func parseContent(resp *http.Response) (result string, sections []Section, err error) {
 	doc, err := goquery.NewDocumentFromResponse(resp)
 	if err != nil {
@@ -118,6 +124,12 @@ func parseContent(resp *http.Response) (result string, sections []Section, err e
 	return result, sections, err
 }
 
+// Функция принимает фрагмент разделов и возвращает фрагмент разделов,
+// но с разделами, отсортированными в определенном порядке.
+// @param sections ([]Section) - Разделы для сортировки.
+//
+// @author Vitaly Batushev
+// @returns Фрагмент структур Section.
 func sortSections(sections []Section) []Section {
 	sectionNames := []string{"general", "button", "form", "data", "media", "menu", "message", "panel", "overlay", "misc"}
 	result := make([]Section, len(sectionNames))
